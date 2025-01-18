@@ -1,0 +1,47 @@
+name: Update Currency Rates
+
+on:
+  schedule:
+    - cron: '0 */8 * * *'  # Runs every 8 hours
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout the repository
+      uses: actions/checkout@v2
+      with:
+        ref: main
+
+    - name: Update status file
+      run: |
+        echo "Currency Rate Bot Status: Active ✅" > status.txt
+        echo "Last Updated: $(date '+%Y-%m-%d %H:%M:%S')" >> status.txt
+
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+
+    - name: Run the script to update README.md
+      run: python fetch_currencies.py
+
+
+    - name: Configure Git
+      run: |
+        git config --global user.name ""
+        git config --global user.email ""
+
+    - name: Commit and push changes
+      run: |
+        git add git add src/data/currencyData.ts
+        git commit -m "Automated update of exchange rates"
+        git push
