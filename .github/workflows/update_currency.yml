@@ -6,7 +6,7 @@ on:
   workflow_dispatch:  # Allow manual trigger
 
 jobs:
-  update-readme:
+  update-currency_data:
     runs-on: ubuntu-latest
     
     steps:
