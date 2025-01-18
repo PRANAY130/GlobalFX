@@ -3,7 +3,7 @@ from datetime import datetime, timezone
 import os
 
 # Replace this with your actual API key
-API_KEY = 'ab5190cdeed8e868c081e4959da09e5e'
+API_KEY = '0c4c3b79cfbe0c999078173780092644'
 
 # API endpoint to fetch exchange rates (with the access key)
 API_URL = f"http://api.exchangerate.host/live?access_key={API_KEY}&base=INR"
