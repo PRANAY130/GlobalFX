@@ -1,4 +1,4 @@
-// Generated on 2025-01-18 17:07:16 UTC
+// Generated on 2025-01-19 01:25:16 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -14,7 +14,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "AMD", country: "Armenia", rate: 4.0095 },
   { code: "ANG", country: "Netherlands Antilles", rate: 0.0180 },
   { code: "AOA", country: "Angola", rate: 9.1350 },
-  { code: "ARS", country: "Argentina", rate: 10.3813 },
+  { code: "ARS", country: "Argentina", rate: 10.4121 },
   { code: "AUD", country: "Australia", rate: 0.0161 },
   { code: "AWG", country: "Aruba", rate: 0.0180 },
   { code: "AZN", country: "Azerbaijan", rate: 0.0170 },
@@ -37,7 +37,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "BZD", country: "Belize", rate: 0.0201 },
   { code: "CAD", country: "Canada", rate: 0.0145 },
   { code: "CDF", country: "Democratic Republic of the Congo", rate: 28.3500 },
-  { code: "CHF", country: "Switzerland", rate: 0.0091 },
+  { code: "CHF", country: "Switzerland", rate: 0.0092 },
   { code: "CLF", country: "Chile", rate: 0.0004 },
   { code: "CLP", country: "Chile", rate: 10.1382 },
   { code: "CNH", country: "China (Offshore Yuan)", rate: 0.0734 },
@@ -47,9 +47,9 @@ export const exchangeRates: CurrencyData[] = [
   { code: "CUC", country: "Cuba (Convertible Peso)", rate: 0.0100 },
   { code: "CUP", country: "Cuba", rate: 0.2650 },
   { code: "CVE", country: "Cape Verde", rate: 1.0700 },
-  { code: "CZK", country: "Czech Republic", rate: 0.2459 },
+  { code: "CZK", country: "Czech Republic", rate: 0.2460 },
   { code: "DJF", country: "Djibouti", rate: 1.7807 },
-  { code: "DKK", country: "Denmark", rate: 0.0726 },
+  { code: "DKK", country: "Denmark", rate: 0.0727 },
   { code: "DOP", country: "Dominican Republic", rate: 0.6125 },
   { code: "DZD", country: "Algeria", rate: 1.3561 },
   { code: "EGP", country: "Egypt", rate: 0.5022 },
@@ -71,7 +71,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "HNL", country: "Honduras", rate: 0.2544 },
   { code: "HRK", country: "Croatia", rate: 0.0738 },
   { code: "HTG", country: "Haiti", rate: 1.3054 },
-  { code: "HUF", country: "Hungary", rate: 4.0210 },
+  { code: "HUF", country: "Hungary", rate: 4.0213 },
   { code: "IDR", country: "Indonesia", rate: 163.8065 },
   { code: "ILS", country: "Israel", rate: 0.0356 },
   { code: "IMP", country: "Isle of Man", rate: 0.0082 },
@@ -126,16 +126,16 @@ export const exchangeRates: CurrencyData[] = [
   { code: "PGK", country: "Papua New Guinea", rate: 0.0407 },
   { code: "PHP", country: "Philippines", rate: 0.5855 },
   { code: "PKR", country: "Pakistan", rate: 2.7868 },
-  { code: "PLN", country: "Poland", rate: 0.0415 },
+  { code: "PLN", country: "Poland", rate: 0.0414 },
   { code: "PYG", country: "Paraguay", rate: 78.7735 },
   { code: "QAR", country: "Qatar", rate: 0.0365 },
   { code: "RON", country: "Romania", rate: 0.0485 },
-  { code: "RSD", country: "Serbia", rate: 1.1403 },
-  { code: "RUB", country: "Russia", rate: 1.0214 },
+  { code: "RSD", country: "Serbia", rate: 1.1363 },
+  { code: "RUB", country: "Russia", rate: 1.0247 },
   { code: "RWF", country: "Rwanda", rate: 13.9265 },
   { code: "SAR", country: "Saudi Arabia", rate: 0.0375 },
   { code: "SBD", country: "Solomon Islands", rate: 0.0847 },
-  { code: "SCR", country: "Seychelles", rate: 0.1500 },
+  { code: "SCR", country: "Seychelles", rate: 0.1505 },
   { code: "SDG", country: "Sudan", rate: 6.0100 },
   { code: "SEK", country: "Sweden", rate: 0.1120 },
   { code: "SGD", country: "Singapore", rate: 0.0137 },
@@ -179,4 +179,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2025-01-18 17:07:16 UTC";
+export const lastUpdated = "2025-01-19 01:25:16 UTC";
