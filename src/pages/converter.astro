@@ -1,0 +1,391 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Background3D from '../components/Background3D';
+import { exchangeRates } from '../data/currencyData';
+
+// Get INR rate from the data
+const inrRate = exchangeRates.find(currency => currency.code === "INR")?.rate || 1;
+
+// Convert all rates to INR
+const adjustedRates = exchangeRates.map(currency => ({
+  ...currency,
+  rate: currency.rate / inrRate
+}));
+---
+
+<Layout title="Currency Converter | Exchange Rates">
+  <div class="background-container">
+    <Background3D client:load />
+  </div>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1 class="animated-title typewriter">Currency Converter</h1>
+        <p class="subtitle fade-in">Convert between any currencies using live exchange rates</p>
+        <a href="/" class="back-button">Back to Home</a>
+      </div>
+    </section>
+
+    <section class="converter-section">
+      <div class="converter-container">
+        <div class="converter-box">
+          <div class="input-group">
+            <input 
+              type="number" 
+              id="amount" 
+              class="amount-input" 
+              value="1"
+              min="0"
+              step="any"
+            />
+            <select id="fromCurrency" class="currency-select">
+              {adjustedRates.map((currency) => (
+                <option value={currency.code} selected={currency.code === "USD"}>
+                  {currency.code} - {currency.country}
+                </option>
+              ))}
+            </select>
+          </div>
+
+          <button id="swapButton" class="swap-button">
+            <span class="swap-icon">⇄</span>
+          </button>
+
+          <div class="input-group">
+            <input 
+              type="number" 
+              id="result" 
+              class="amount-input" 
+              readonly 
+            />
+            <select id="toCurrency" class="currency-select">
+              {adjustedRates.map((currency) => (
+                <option value={currency.code} selected={currency.code === "INR"}>
+                  {currency.code} - {currency.country}
+                </option>
+              ))}
+            </select>
+          </div>
+        </div>
+
+        <div class="conversion-info" id="conversionInfo">
+          <p>1 USD = 82.50 INR</p>
+        </div>
+      </div>
+    </section>
+  </main>
+</Layout>
+
+<style>
+  .background-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+  }
+
+  main {
+    margin: auto;
+    padding: 0;
+    max-width: 1400px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .hero {
+    background: var(--card-bg);
+    backdrop-filter: blur(10px);
+    padding: 4rem 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    border-radius: 0 0 30px 30px;
+    border: 1px solid rgba(255, 107, 107, 0.2);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: var(--gradient);
+    background-size: 200% 200%;
+    animation: gradient-shift 3s ease infinite;
+  }
+
+  .animated-title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    background: var(--gradient);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient-shift 3s ease infinite;
+  }
+
+  .typewriter {
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid var(--accent);
+    animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  }
+
+  .fade-in {
+    animation: fadeIn 1s ease-out forwards;
+  }
+
+  .subtitle {
+    font-size: 1.25rem;
+    color: var(--text-secondary);
+    margin-bottom: 2rem;
+    opacity: 0;
+    animation: fadeIn 1s ease-out 0.5s forwards;
+  }
+
+  .converter-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: var(--card-bg);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 4px 20px rgba(255, 107, 107, 0.1);
+    border: 1px solid rgba(255, 107, 107, 0.2);
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .converter-box {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    position: relative;
+  }
+
+  .input-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    transform-style: preserve-3d;
+    transition: transform 0.3s ease;
+  }
+
+  .input-group:hover {
+    transform: translateZ(20px);
+  }
+
+  .amount-input {
+    width: 100%;
+    padding: 1rem;
+    border: 2px solid rgba(255, 107, 107, 0.2);
+    border-radius: 10px;
+    font-size: 1.25rem;
+    background: rgba(255, 255, 255, 0.9);
+    transition: all 0.3s ease;
+  }
+
+  .amount-input:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 20px rgba(255, 107, 107, 0.2);
+    transform: translateY(-2px);
+  }
+
+  .currency-select {
+    width: 100%;
+    padding: 1rem;
+    border: 2px solid rgba(255, 107, 107, 0.2);
+    border-radius: 10px;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.9);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .currency-select:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 20px rgba(255, 107, 107, 0.2);
+    transform: translateY(-2px);
+  }
+
+  .swap-button {
+    width: 48px;
+    height: 48px;
+    border: none;
+    border-radius: 50%;
+    background: var(--gradient);
+    background-size: 200% 200%;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+    animation: gradient-shift 3s ease infinite;
+    box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+  }
+
+  .swap-button:hover {
+    transform: scale(1.1) rotate(180deg);
+    box-shadow: 0 8px 25px rgba(255, 107, 107, 0.4);
+  }
+
+  .conversion-info {
+    text-align: center;
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    background: var(--gradient);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient-shift 3s ease infinite;
+    font-weight: 600;
+  }
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: var(--accent) }
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes float {
+    0% { transform: translateY(0px) rotateX(0deg); }
+    50% { transform: translateY(-10px) rotateX(5deg); }
+    100% { transform: translateY(0px) rotateX(0deg); }
+  }
+
+  @keyframes gradient-shift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  @media (max-width: 768px) {
+    .converter-box {
+      flex-direction: column;
+    }
+
+    .swap-button {
+      transform: rotate(90deg);
+      margin: 1rem 0;
+    }
+
+    .swap-button:hover {
+      transform: scale(1.1) rotate(270deg);
+    }
+
+    .animated-title {
+      font-size: 2.5rem;
+    }
+  }
+</style>
+
+<script>
+  const amount = document.getElementById('amount') as HTMLInputElement;
+  const result = document.getElementById('result') as HTMLInputElement;
+  const fromCurrency = document.getElementById('fromCurrency') as HTMLSelectElement;
+  const toCurrency = document.getElementById('toCurrency') as HTMLSelectElement;
+  const swapButton = document.getElementById('swapButton');
+  const conversionInfo = document.getElementById('conversionInfo');
+
+  // Get exchange rates from the window object
+  const exchangeRates = {
+    rates: {} as Record<string, number>,
+    inrRate: 0
+  };
+
+  // Initialize exchange rates
+  async function initializeRates() {
+    const response = await fetch('/src/data/currencyData.ts');
+    const data = await response.text();
+    const ratesMatch = data.match(/export const exchangeRates = (\[[\s\S]*?\]);/);
+    
+    if (ratesMatch) {
+      const ratesData = eval(ratesMatch[1]);
+      const inrRate = ratesData.find((c: any) => c.code === "INR")?.rate || 1;
+      
+      ratesData.forEach((currency: any) => {
+        exchangeRates.rates[currency.code] = currency.rate / inrRate;
+      });
+      exchangeRates.inrRate = inrRate;
+      
+      // Initial conversion
+      convert();
+    }
+  }
+
+  function convert() {
+    const fromRate = exchangeRates.rates[fromCurrency.value];
+    const toRate = exchangeRates.rates[toCurrency.value];
+    const inputAmount = parseFloat(amount.value);
+    
+    if (!isNaN(inputAmount) && fromRate && toRate) {
+      const convertedAmount = (inputAmount * toRate) / fromRate;
+      result.value = convertedAmount.toFixed(4);
+      
+      // Update conversion info with animation
+      if (conversionInfo) {
+        conversionInfo.style.opacity = '0';
+        setTimeout(() => {
+          conversionInfo.innerHTML = `
+            <p>1 ${fromCurrency.value} = ${(toRate / fromRate).toFixed(4)} ${toCurrency.value}</p>
+          `;
+          conversionInfo.style.opacity = '1';
+        }, 200);
+      }
+    }
+  }
+
+  // Add smooth transitions for input changes
+  amount.addEventListener('input', () => {
+    if (result) {
+      result.style.transition = 'all 0.3s ease';
+      convert();
+    }
+  });
+
+  fromCurrency.addEventListener('change', convert);
+  toCurrency.addEventListener('change', convert);
+
+  // Add swap animation
+  swapButton?.addEventListener('click', () => {
+    const tempValue = fromCurrency.value;
+    fromCurrency.value = toCurrency.value;
+    toCurrency.value = tempValue;
+    
+    // Add rotation animation to the inputs
+    const inputs = document.querySelectorAll('.input-group');
+    inputs.forEach(input => {
+      input.classList.add('swap-animation');
+      setTimeout(() => input.classList.remove('swap-animation'), 500);
+    });
+    
+    convert();
+  });
+
+  // Initialize
+  initializeRates();
+</script>
