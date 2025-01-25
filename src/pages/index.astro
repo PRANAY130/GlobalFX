@@ -1,11 +1,323 @@
 ---
-import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
+import CurrencyCard from '../components/CurrencyCard.astro';
+import Background3D from '../components/Background3D';
+import TopCurrenciesChart from '../components/TopCurrenciesChart';
+import { exchangeRates, lastUpdated } from '../data/currencyData';
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+// Get INR rate from the data
+const inrRate = exchangeRates.find(currency => currency.code === "INR")?.rate || 1;
+
+// Convert rates to INR and get top 10
+const topCurrencies = [...exchangeRates]
+  .map(currency => ({
+    ...currency,
+    rate: currency.rate / inrRate
+  }))
+  .sort((a, b) => b.rate - a.rate)
+  .slice(0, 10);
 ---
 
-<Layout>
-	<Welcome />
+<Layout title="Currency Exchange Rates | INR">
+  <div class="background-container">
+    <Background3D client:load />
+  </div>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1 class="animated-title">Global Currency Exchange</h1>
+        <p class="subtitle">Real-time exchange rates against Indian Rupee (INR)</p>
+        <div class="stats">
+          <div class="stat-item">
+            <span class="stat-value animated-number">{exchangeRates.length}</span>
+            <span class="stat-label">Currencies</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-value">Live</span>
+            <span class="stat-label">Updates</span>
+          </div>
+        </div>
+        <a href="/converter" class="cta-button">Convert Currency</a>
+        <a href="/all-currencies" class="secondary-button">View All Currencies</a>
+      </div>
+    </section>
+
+    <section class="chart-section">
+      <div class="chart-container">
+        <h2 class="section-title">Top 10 Currencies</h2>
+        <div class="chart-wrapper">
+          <TopCurrenciesChart client:load currencies={topCurrencies} />
+        </div>
+      </div>
+    </section>
+
+    <section class="featured-currencies">
+      <h2 class="section-title">Featured Exchange Rates</h2>
+      <div class="currency-grid">
+        {topCurrencies.map((currency) => (
+          <CurrencyCard
+            currency={currency.country}
+            code={currency.code}
+            value={currency.rate}
+            lastUpdated={lastUpdated}
+          />
+        ))}
+      </div>
+    </section>
+  </main>
 </Layout>
+
+<style>
+  .background-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+  }
+
+  main {
+    margin: auto;
+    padding: 0;
+    max-width: 1400px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .hero {
+    background: var(--card-bg);
+    backdrop-filter: blur(10px);
+    padding: 4rem 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    border-radius: 0 0 30px 30px;
+    border: 1px solid rgba(255, 107, 107, 0.2);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: var(--gradient);
+    background-size: 200% 200%;
+    animation: gradient-shift 3s ease infinite;
+  }
+
+  .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+  }
+
+  .animated-title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    background: var(--gradient);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient-shift 3s ease infinite, titleAnimation 2s ease-out forwards;
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  .subtitle {
+    font-size: 1.25rem;
+    color: var(--text-secondary);
+    margin-bottom: 2rem;
+    animation: fadeIn 1s ease-out 0.5s forwards;
+    opacity: 0;
+  }
+
+  .stats {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin: 2rem 0;
+  }
+
+  .stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: slideUp 1s ease-out 1s forwards;
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  .stat-value {
+    font-size: 2.5rem;
+    font-weight: 700;
+    background: var(--gradient);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient-shift 3s ease infinite;
+  }
+
+  .stat-label {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-top: 0.5rem;
+  }
+
+  .cta-button, .secondary-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 9999px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    margin: 0.5rem;
+  }
+
+  .cta-button {
+    background: var(--gradient);
+    background-size: 200% 200%;
+    color: white;
+    animation: gradient-shift 3s ease infinite;
+    box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+  }
+
+  .secondary-button {
+    background: transparent;
+    color: var(--text-primary);
+    border: 2px solid;
+    border-image: var(--gradient) 1;
+  }
+
+  .cta-button:hover, .secondary-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(255, 107, 107, 0.4);
+  }
+
+  .chart-section {
+    background: var(--card-bg);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 2rem;
+    margin: 2rem;
+    border: 1px solid rgba(255, 107, 107, 0.2);
+    box-shadow: 0 4px 20px rgba(255, 107, 107, 0.1);
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .chart-wrapper {
+    position: relative;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    overflow: hidden;
+  }
+
+  .chart-wrapper::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: var(--gradient);
+    background-size: 200% 200%;
+    animation: gradient-shift 3s ease infinite;
+  }
+
+  .section-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    background: var(--gradient);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient-shift 3s ease infinite;
+  }
+
+  .featured-currencies {
+    padding: 2rem;
+  }
+
+  .currency-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  @keyframes titleAnimation {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+  }
+
+  @keyframes gradient-shift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  @media (max-width: 768px) {
+    .animated-title {
+      font-size: 2.5rem;
+    }
+
+    .stats {
+      gap: 2rem;
+    }
+
+    .currency-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .chart-section {
+      margin: 1rem;
+      padding: 1rem;
+    }
+
+    .cta-button, .secondary-button {
+      display: block;
+      margin: 1rem auto;
+      max-width: 200px;
+    }
+  }
+</style>
