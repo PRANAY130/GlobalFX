@@ -1,22 +1,459 @@
+---
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+
+const collaborators = [
+  {
+    name: "Amitava Datta",
+    role: "Lead Developer",
+    github: "https://github.com/amitava-datta",
+    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=amitava"
+  },
+  {
+    name: "Pranay De",
+    role: "Senior Developer",
+    github: "https://github.com/pranay-de",
+    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=pranay"
+  }
+];
+---
+
 <!doctype html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
+		<meta name="description" content="Currency Exchange Rates and Converter" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
+		<title>{title}</title>
 	</head>
 	<body>
+		<nav class="main-nav">
+			<div class="nav-content">
+				<a href="/" class="nav-logo">
+					<span class="logo-text">CurrencyX</span>
+				</a>
+				<div class="nav-links">
+					<a href="/" class="nav-link">Home</a>
+					<a href="/converter" class="nav-link">Converter</a>
+					<a href="/all-currencies" class="nav-link">All Currencies</a>
+					<button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+						<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+							<circle cx="12" cy="12" r="5"/>
+							<path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+						</svg>
+					</button>
+				</div>
+			</div>
+		</nav>
+		
 		<slot />
+
+		<footer class="site-footer">
+			<div class="footer-content">
+				<div class="footer-section">
+					<h2 class="section-title">Meet Our Team</h2>
+					<div class="collaborators">
+						{collaborators.map(collab => (
+							<div class="collaborator-card">
+								<div class="card-glow"></div>
+								<img src={collab.image} alt={collab.name} class="collaborator-image" />
+								<h3 class="collaborator-name">{collab.name}</h3>
+								<p class="collaborator-role">{collab.role}</p>
+								<a href={collab.github} target="_blank" rel="noopener noreferrer" class="github-link">
+									GitHub Profile
+								</a>
+							</div>
+						))}
+					</div>
+				</div>
+				<div class="footer-bottom">
+					<p>&copy; 2024 CurrencyX. All rights reserved.</p>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>
 
-<style>
-	html,
+<style is:global>
+	:root {
+		/* Light theme colors - Vibrant red-yellow version */
+		--bg-primary-light: #ffffff;
+		--bg-secondary-light: #fff5f5;
+		--text-primary-light: #1a1a2e;
+		--text-secondary-light: #4a4a6a;
+		--accent-primary: #ff6b6b;
+		--accent-secondary: #ffd93d;
+		--gradient-primary: linear-gradient(45deg, #ff6b6b, #ffd93d);
+		--gradient-secondary: linear-gradient(45deg, #ff8e3c, #ff6b6b);
+		--card-bg-light: rgba(255, 255, 255, 0.9);
+		--nav-bg-light: rgba(255, 255, 255, 0.8);
+
+		/* Dark theme colors - Vibrant red-yellow version */
+		--bg-primary-dark: #1a1a2e;
+		--bg-secondary-dark: #2a1a1a;
+		--text-primary-dark: #ffffff;
+		--text-secondary-dark: #ffd0d0;
+		--accent-primary-dark: #ff6b6b;
+		--accent-secondary-dark: #ffd93d;
+		--gradient-primary-dark: linear-gradient(45deg, #ff6b6b, #ffd93d);
+		--gradient-secondary-dark: linear-gradient(45deg, #ff8e3c, #ff6b6b);
+		--card-bg-dark: rgba(26, 26, 46, 0.9);
+		--nav-bg-dark: rgba(26, 26, 46, 0.8);
+
+		/* Default theme (light) */
+		--bg-primary: var(--bg-primary-light);
+		--bg-secondary: var(--bg-secondary-light);
+		--text-primary: var(--text-primary-light);
+		--text-secondary: var(--text-secondary-light);
+		--accent: var(--accent-primary);
+		--accent-alt: var(--accent-secondary);
+		--gradient: var(--gradient-primary);
+		--gradient-alt: var(--gradient-secondary);
+		--card-bg: var(--card-bg-light);
+		--nav-bg: var(--nav-bg-light);
+	}
+
+	/* Dark theme class */
+	html.dark {
+		--bg-primary: var(--bg-primary-dark);
+		--bg-secondary: var(--bg-secondary-dark);
+		--text-primary: var(--text-primary-dark);
+		--text-secondary: var(--text-secondary-dark);
+		--accent: var(--accent-primary-dark);
+		--accent-alt: var(--accent-secondary-dark);
+		--gradient: var(--gradient-primary-dark);
+		--gradient-alt: var(--gradient-secondary-dark);
+		--card-bg: var(--card-bg-dark);
+		--nav-bg: var(--nav-bg-dark);
+	}
+
+	@keyframes gradient-shift {
+		0% { background-position: 0% 50%; }
+		50% { background-position: 100% 50%; }
+		100% { background-position: 0% 50%; }
+	}
+
+	@keyframes float {
+		0% { transform: translateY(0px); }
+		50% { transform: translateY(-10px); }
+		100% { transform: translateY(0px); }
+	}
+
+	html {
+		font-family: system-ui, sans-serif;
+		background: var(--bg-primary);
+		color: var(--text-primary);
+		scroll-behavior: smooth;
+		transition: all 0.3s ease;
+	}
+
 	body {
 		margin: 0;
+		padding: 0;
+		min-height: 100vh;
+		background: 
+			radial-gradient(circle at top right, rgba(255, 107, 107, 0.1), transparent 40%),
+			radial-gradient(circle at bottom left, rgba(255, 217, 61, 0.1), transparent 40%);
+	}
+
+	.main-nav {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 100;
+		background: var(--nav-bg);
+		backdrop-filter: blur(10px);
+		border-bottom: 1px solid rgba(255, 107, 107, 0.2);
+		box-shadow: 0 4px 20px rgba(255, 107, 107, 0.1);
+	}
+
+	.nav-content {
+		max-width: 1400px;
+		margin: 0 auto;
+		padding: 1rem 2rem;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.logo-text {
+		font-size: 1.5rem;
+		font-weight: 700;
+		background: var(--gradient);
+		background-size: 200% 200%;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		animation: gradient-shift 3s ease infinite;
+	}
+
+	.nav-links {
+		display: flex;
+		gap: 2rem;
+		align-items: center;
+	}
+
+	.nav-link {
+		color: var(--text-primary);
+		text-decoration: none;
+		font-weight: 500;
+		transition: all 0.3s ease;
+		padding: 0.5rem 1rem;
+		border-radius: 9999px;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.nav-link::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
 		width: 100%;
 		height: 100%;
+		background: var(--gradient);
+		opacity: 0;
+		transition: opacity 0.3s ease;
+		z-index: -1;
+		border-radius: 9999px;
+	}
+
+	.nav-link:hover::before {
+		opacity: 0.2;
+	}
+
+	.nav-link:hover {
+		color: var(--accent);
+		transform: translateY(-2px);
+	}
+
+	.theme-toggle {
+		background: var(--gradient);
+		border: none;
+		color: white;
+		cursor: pointer;
+		padding: 0.5rem;
+		border-radius: 50%;
+		transition: all 0.3s ease;
+		box-shadow: 0 2px 10px rgba(255, 107, 107, 0.2);
+	}
+
+	.theme-toggle:hover {
+		transform: rotate(180deg) scale(1.1);
+		box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+	}
+
+	.site-footer {
+		background: var(--card-bg);
+		backdrop-filter: blur(10px);
+		padding: 4rem 2rem;
+		margin-top: 4rem;
+		border-top: 1px solid rgba(255, 107, 107, 0.2);
+	}
+
+	.footer-content {
+		max-width: 1400px;
+		margin: 0 auto;
+	}
+
+	.section-title {
+		text-align: center;
+		font-size: 2.5rem;
+		font-weight: 700;
+		margin-bottom: 3rem;
+		background: var(--gradient);
+		background-size: 200% 200%;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		animation: gradient-shift 3s ease infinite;
+	}
+
+	.collaborators {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+		gap: 2rem;
+		padding: 2rem;
+	}
+
+	.collaborator-card {
+		background: var(--card-bg);
+		border-radius: 20px;
+		padding: 2rem;
+		text-align: center;
+		backdrop-filter: blur(10px);
+		border: 1px solid rgba(255, 107, 107, 0.2);
+		transition: all 0.3s ease;
+		position: relative;
+		overflow: hidden;
+		animation: float 6s ease-in-out infinite;
+	}
+
+	.card-glow {
+		position: absolute;
+		top: -50%;
+		left: -50%;
+		width: 200%;
+		height: 200%;
+		background: radial-gradient(
+			circle at center,
+			rgba(255, 107, 107, 0.2) 0%,
+			rgba(255, 217, 61, 0.2) 25%,
+			transparent 70%
+		);
+		opacity: 0;
+		transition: opacity 0.3s ease;
+		pointer-events: none;
+		mix-blend-mode: screen;
+	}
+
+	.collaborator-card:hover .card-glow {
+		opacity: 1;
+		animation: rotate 10s linear infinite;
+	}
+
+	.collaborator-card::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: 4px;
+		background: var(--gradient);
+		background-size: 200% 200%;
+		animation: gradient-shift 3s ease infinite;
+	}
+
+	.collaborator-card:hover {
+		transform: translateY(-10px) scale(1.02);
+		box-shadow: 
+			0 20px 40px rgba(255, 107, 107, 0.2),
+			0 0 20px rgba(255, 217, 61, 0.2);
+	}
+
+	.collaborator-image {
+		width: 120px;
+		height: 120px;
+		border-radius: 50%;
+		margin-bottom: 1rem;
+		border: 4px solid transparent;
+		background: var(--gradient);
+		background-size: 200% 200%;
+		animation: gradient-shift 3s ease infinite;
+		padding: 3px;
+		transition: all 0.3s ease;
+	}
+
+	.collaborator-card:hover .collaborator-image {
+		transform: scale(1.1) rotate(10deg);
+	}
+
+	.collaborator-name {
+		font-size: 1.5rem;
+		font-weight: 700;
+		margin: 1rem 0;
+		background: var(--gradient);
+		background-size: 200% 200%;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		animation: gradient-shift 3s ease infinite;
+	}
+
+	.collaborator-role {
+		color: var(--text-secondary);
+		margin-bottom: 1.5rem;
+		font-size: 1.1rem;
+	}
+
+	.github-link {
+		display: inline-block;
+		padding: 0.75rem 1.5rem;
+		background: var(--gradient);
+		background-size: 200% 200%;
+		color: white;
+		text-decoration: none;
+		border-radius: 9999px;
+		font-weight: 500;
+		transition: all 0.3s ease;
+		animation: gradient-shift 3s ease infinite;
+		box-shadow: 0 4px 15px rgba(255, 107, 107, 0.2);
+	}
+
+	.github-link:hover {
+		transform: translateY(-2px) scale(1.05);
+		box-shadow: 0 8px 25px rgba(255, 107, 107, 0.3);
+	}
+
+	.footer-bottom {
+		text-align: center;
+		margin-top: 4rem;
+		padding-top: 2rem;
+		border-top: 1px solid rgba(255, 107, 107, 0.2);
+		color: var(--text-secondary);
+	}
+
+	@keyframes rotate {
+		from { transform: rotate(0deg); }
+		to { transform: rotate(360deg); }
+	}
+
+	@media (max-width: 768px) {
+		.nav-content {
+			flex-direction: column;
+			gap: 1rem;
+			padding: 1rem;
+		}
+
+		.nav-links {
+			gap: 1rem;
+		}
+
+		.nav-link {
+			padding: 0.25rem 0.5rem;
+			font-size: 0.875rem;
+		}
+
+		.collaborators {
+			grid-template-columns: 1fr;
+			padding: 1rem;
+		}
+
+		.section-title {
+			font-size: 2rem;
+		}
 	}
 </style>
+
+<script>
+	const theme = (() => {
+		if (typeof localStorage !== 'undefined' && localStorage.getItem('theme')) {
+			return localStorage.getItem('theme');
+		}
+		if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+			return 'dark';
+		}
+		return 'light';
+	})();
+
+	if (theme === 'light') {
+		document.documentElement.classList.remove('dark');
+	} else {
+		document.documentElement.classList.add('dark');
+	}
+
+	window.localStorage.setItem('theme', theme);
+
+	const handleToggleClick = () => {
+		const element = document.documentElement;
+		element.classList.toggle('dark');
+
+		const isDark = element.classList.contains('dark');
+		localStorage.setItem('theme', isDark ? 'dark' : 'light');
+	};
+
+	document.getElementById('themeToggle')?.addEventListener('click', handleToggleClick);
+</script>
