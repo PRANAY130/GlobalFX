@@ -90,13 +90,14 @@ const adjustedRates = exchangeRates.map(currency => ({
   }
 
   .animated-title {
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: 800;
     margin-bottom: 1rem;
-    background: linear-gradient(45deg, #60a5fa, #a78bfa);
+    background: var(--gradient);
+    background-size: 200% 200%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: titleAnimation 2s ease-out forwards;
+    animation: gradient-shift 3s ease infinite;
   }
 
   .back-button {
