@@ -21,7 +21,7 @@ const adjustedRates = exchangeRates.map(currency => ({
   <main>
     <section class="hero">
       <div class="hero-content">
-        <h1 class="animated-title typewriter">Currency Converter</h1>
+        <h1 class="animated-title">Currency Converter</h1>
         <p class="subtitle fade-in">Convert between any currencies using live exchange rates</p>
         <a href="/" class="back-button">Back to Home</a>
       </div>
@@ -131,13 +131,6 @@ const adjustedRates = exchangeRates.map(currency => ({
     animation: gradient-shift 3s ease infinite;
   }
 
-  .typewriter {
-    overflow: hidden;
-    white-space: nowrap;
-    border-right: 3px solid var(--accent);
-    animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
-  }
-
   .fade-in {
     animation: fadeIn 1s ease-out forwards;
   }
@@ -148,6 +141,23 @@ const adjustedRates = exchangeRates.map(currency => ({
     margin-bottom: 2rem;
     opacity: 0;
     animation: fadeIn 1s ease-out 0.5s forwards;
+  }
+
+  .back-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background: linear-gradient(45deg, #60a5fa, #a78bfa);
+    color: white;
+    border-radius: 9999px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+  }
+
+  .back-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(96, 165, 250, 0.3);
   }
 
   .converter-container {
