@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import CurrencyCard from '../components/CurrencyCard.astro';
 import Background3D from '../components/Background3D';
+import Features from '../components/Features.astro';
 import TopCurrenciesChart from '../components/TopCurrenciesChart';
 import { exchangeRates, lastUpdated } from '../data/currencyData';
 
@@ -42,6 +43,9 @@ const topCurrencies = [...exchangeRates]
         <a href="/all-currencies" class="secondary-button">View All Currencies</a>
       </div>
     </section>
+
+    <Features />
+
 
     <section class="chart-section">
       <div class="chart-container">

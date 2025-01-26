@@ -1,0 +1,114 @@
+---
+const features = [
+  {
+    title: "Real-Time Exchange Rates",
+    description: "Get up-to-the-minute currency exchange rates from around the world",
+    icon: "🔄"
+  },
+  {
+    title: "Currency Converter",
+    description: "Convert between any currencies with our easy-to-use calculator",
+    icon: "🧮"
+  },
+  {
+    title: "Historical Data",
+    description: "Track currency trends with historical exchange rate data",
+    icon: "📊"
+  },
+  {
+    title: "Global Coverage",
+    description: "Access exchange rates for over 150 currencies worldwide",
+    icon: "🌍"
+  }
+];
+---
+
+<section class="features">
+  <h2 class="section-title">Features</h2>
+  <div class="features-grid">
+    {features.map(feature => (
+      <div class="feature-card">
+        <div class="feature-icon">{feature.icon}</div>
+        <h3 class="feature-title">{feature.title}</h3>
+        <p class="feature-description">{feature.description}</p>
+      </div>
+    ))}
+  </div>
+</section>
+
+<style>
+  .features {
+    padding: 4rem 2rem;
+    background: var(--card-bg);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    margin: 2rem;
+    border: 1px solid rgba(255, 107, 107, 0.2);
+  }
+
+  .section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    background: var(--gradient);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient-shift 3s ease infinite;
+  }
+
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 1rem;
+  }
+
+  .feature-card {
+    background: var(--card-bg);
+    border-radius: 20px;
+    padding: 2rem;
+    text-align: center;
+    border: 1px solid rgba(255, 107, 107, 0.2);
+    transition: all 0.3s ease;
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(255, 107, 107, 0.2);
+  }
+
+  .feature-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .feature-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    background: var(--gradient);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient-shift 3s ease infinite;
+  }
+
+  .feature-description {
+    color: var(--text-secondary);
+    line-height: 1.6;
+  }
+
+  @media (max-width: 768px) {
+    .features {
+      margin: 1rem;
+      padding: 2rem 1rem;
+    }
+
+    .section-title {
+      font-size: 2rem;
+    }
+  }
+</style>
