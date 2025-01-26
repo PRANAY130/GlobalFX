@@ -100,15 +100,18 @@ const adjustedRates = exchangeRates.map(currency => ({
   }
 
   .back-button {
-    display: inline-block;
-    margin-top: 1rem;
-    padding: 0.75rem 1.5rem;
-    background: linear-gradient(45deg, #60a5fa, #a78bfa);
+    background: var(--gradient);
+    background-size: 200% 200%;
     color: white;
+    animation: gradient-shift 3s ease infinite;
+    box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+    display: inline-block;
+    padding: 1rem 2rem;
     border-radius: 9999px;
-    text-decoration: none;
     font-weight: 600;
+    text-decoration: none;
     transition: all 0.3s ease;
+    margin: 0.5rem;
   }
 
   .back-button:hover {
