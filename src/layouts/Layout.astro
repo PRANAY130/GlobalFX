@@ -445,10 +445,12 @@ const collaborators = [
 		document.documentElement.classList.add('dark');
 	}
 
-	window.localStorage.setItem('theme', theme);
+	window.localStorage.setItem('theme', 'theme');
 
 	const handleToggleClick = () => {
+		
 		const element = document.documentElement;
+
 		element.classList.toggle('dark');
 
 		const isDark = element.classList.contains('dark');
