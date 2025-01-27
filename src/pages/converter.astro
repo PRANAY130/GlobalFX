@@ -335,7 +335,7 @@ const adjustedRates = exchangeRates.map(currency => ({
 
   // Initialize exchange rates
   async function initializeRates() {
-    const response = await fetch('/src/data/currencyData.ts');
+    const response = await fetch('src/data/currencyData.ts');
     const data = await response.text();
     const ratesMatch = data.match(/export const exchangeRates = (\[[\s\S]*?\]);/);
     
