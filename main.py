@@ -245,14 +245,17 @@ def update_json(rates):
     # Convert the rates dictionary to a JSON object
     content = f"""[
 """
-
+    i=0
     for currency, rate in sorted(rates.items()):
         if rate != 0:  # Avoid division by zero
             currency_code = currency[3:]  # Extract 3-letter currency code from quotes like USDINR
             rate_in_inr = rate / 100  # Adjust the rate value
             country = CURRENCY_TO_COUNTRY.get(currency_code, "Unknown Country")
-            content += f'  {{\n\t"code": "{currency_code}",\n\t"country": "{country}",\n\t"rate": {rate_in_inr:.4f}\n}},\n'
-
+            content += f'  {{\n\t"code": "{currency_code}",\n\t"country": "{country}",\n\t"rate": {rate_in_inr:.4f}\n}}'
+        i=i+1
+        if(i<len(rate.items()-1)):
+            content += ","
+        content += "\n"
     content += f"]"
 
     file_path = os.path.join("public","currencyData.json")
