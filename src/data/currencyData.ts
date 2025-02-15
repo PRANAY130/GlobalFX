@@ -1,4 +1,4 @@
-// Generated on 2025-02-15 08:20:17 UTC
+// Generated on 2025-02-15 16:19:15 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -14,7 +14,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "AMD", country: "Armenia", rate: 3.9844 },
   { code: "ANG", country: "Netherlands Antilles", rate: 0.0180 },
   { code: "AOA", country: "Angola", rate: 9.1450 },
-  { code: "ARS", country: "Argentina", rate: 10.5383 },
+  { code: "ARS", country: "Argentina", rate: 10.5556 },
   { code: "AUD", country: "Australia", rate: 0.0157 },
   { code: "AWG", country: "Aruba", rate: 0.0180 },
   { code: "AZN", country: "Azerbaijan", rate: 0.0170 },
@@ -75,7 +75,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "IDR", country: "Indonesia", rate: 161.7985 },
   { code: "ILS", country: "Israel", rate: 0.0355 },
   { code: "IMP", country: "Isle of Man", rate: 0.0080 },
-  { code: "INR", country: "India", rate: 0.8663 },
+  { code: "INR", country: "India", rate: 0.8667 },
   { code: "IQD", country: "Iraq", rate: 13.0619 },
   { code: "IRR", country: "Iran", rate: 420.8750 },
   { code: "ISK", country: "Iceland", rate: 1.4005 },
@@ -88,7 +88,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "KHR", country: "Cambodia", rate: 39.9200 },
   { code: "KMF", country: "Comoros", rate: 4.6860 },
   { code: "KPW", country: "North Korea", rate: 9.0009 },
-  { code: "KRW", country: "South Korea", rate: 14.4143 },
+  { code: "KRW", country: "South Korea", rate: 14.4146 },
   { code: "KWD", country: "Kuwait", rate: 0.0031 },
   { code: "KYD", country: "Cayman Islands", rate: 0.0083 },
   { code: "KZT", country: "Kazakhstan", rate: 4.9573 },
@@ -126,7 +126,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "PGK", country: "Papua New Guinea", rate: 0.0401 },
   { code: "PHP", country: "Philippines", rate: 0.5770 },
   { code: "PKR", country: "Pakistan", rate: 2.7833 },
-  { code: "PLN", country: "Poland", rate: 0.0396 },
+  { code: "PLN", country: "Poland", rate: 0.0397 },
   { code: "PYG", country: "Paraguay", rate: 78.5636 },
   { code: "QAR", country: "Qatar", rate: 0.0363 },
   { code: "RON", country: "Romania", rate: 0.0474 },
@@ -161,7 +161,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "UGX", country: "Uganda", rate: 36.6910 },
   { code: "UYU", country: "Uruguay", rate: 0.4331 },
   { code: "UZS", country: "Uzbekistan", rate: 129.5518 },
-  { code: "VES", country: "Unknown Country", rate: 0.6198 },
+  { code: "VES", country: "Unknown Country", rate: 0.6199 },
   { code: "VND", country: "Vietnam", rate: 253.9000 },
   { code: "VUV", country: "Vanuatu", rate: 1.2366 },
   { code: "WST", country: "Samoa", rate: 0.0284 },
@@ -179,4 +179,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2025-02-15 08:20:17 UTC";
+export const lastUpdated = "2025-02-15 16:19:15 UTC";
