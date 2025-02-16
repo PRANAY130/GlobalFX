@@ -1,4 +1,4 @@
-// Generated on 2025-02-15 16:19:15 UTC
+// Generated on 2025-02-16 01:27:15 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -14,7 +14,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "AMD", country: "Armenia", rate: 3.9844 },
   { code: "ANG", country: "Netherlands Antilles", rate: 0.0180 },
   { code: "AOA", country: "Angola", rate: 9.1450 },
-  { code: "ARS", country: "Argentina", rate: 10.5556 },
+  { code: "ARS", country: "Argentina", rate: 10.5383 },
   { code: "AUD", country: "Australia", rate: 0.0157 },
   { code: "AWG", country: "Aruba", rate: 0.0180 },
   { code: "AZN", country: "Azerbaijan", rate: 0.0170 },
@@ -131,7 +131,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "QAR", country: "Qatar", rate: 0.0363 },
   { code: "RON", country: "Romania", rate: 0.0474 },
   { code: "RSD", country: "Serbia", rate: 1.1157 },
-  { code: "RUB", country: "Russia", rate: 0.9107 },
+  { code: "RUB", country: "Russia", rate: 0.9097 },
   { code: "RWF", country: "Rwanda", rate: 13.9896 },
   { code: "SAR", country: "Saudi Arabia", rate: 0.0375 },
   { code: "SBD", country: "Solomon Islands", rate: 0.0843 },
@@ -161,7 +161,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "UGX", country: "Uganda", rate: 36.6910 },
   { code: "UYU", country: "Uruguay", rate: 0.4331 },
   { code: "UZS", country: "Uzbekistan", rate: 129.5518 },
-  { code: "VES", country: "Unknown Country", rate: 0.6199 },
+  { code: "VES", country: "Unknown Country", rate: 0.6198 },
   { code: "VND", country: "Vietnam", rate: 253.9000 },
   { code: "VUV", country: "Vanuatu", rate: 1.2366 },
   { code: "WST", country: "Samoa", rate: 0.0284 },
@@ -179,4 +179,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2025-02-15 16:19:15 UTC";
+export const lastUpdated = "2025-02-16 01:27:15 UTC";
