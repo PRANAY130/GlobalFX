@@ -1,4 +1,4 @@
-// Generated on 2025-04-05 08:22:04 UTC
+// Generated on 2025-04-05 16:22:03 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -126,7 +126,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "PGK", country: "Papua New Guinea", rate: 0.0415 },
   { code: "PHP", country: "Philippines", rate: 0.5739 },
   { code: "PKR", country: "Pakistan", rate: 2.8247 },
-  { code: "PLN", country: "Poland", rate: 0.0389 },
+  { code: "PLN", country: "Poland", rate: 0.0390 },
   { code: "PYG", country: "Paraguay", rate: 80.6659 },
   { code: "QAR", country: "Qatar", rate: 0.0367 },
   { code: "RON", country: "Romania", rate: 0.0454 },
@@ -179,4 +179,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2025-04-05 08:22:04 UTC";
+export const lastUpdated = "2025-04-05 16:22:03 UTC";
