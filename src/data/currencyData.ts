@@ -1,4 +1,4 @@
-// Generated on 2025-04-05 16:22:03 UTC
+// Generated on 2025-04-06 01:40:04 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -21,7 +21,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "BAM", country: "Bosnia and Herzegovina", rate: 0.0178 },
   { code: "BBD", country: "Barbados", rate: 0.0203 },
   { code: "BDT", country: "Bangladesh", rate: 1.2225 },
-  { code: "BGN", country: "Bulgaria", rate: 0.0178 },
+  { code: "BGN", country: "Bulgaria", rate: 0.0179 },
   { code: "BHD", country: "Bahrain", rate: 0.0038 },
   { code: "BIF", country: "Burundi", rate: 29.9065 },
   { code: "BMD", country: "Bermuda", rate: 0.0100 },
@@ -179,4 +179,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2025-04-05 16:22:03 UTC";
+export const lastUpdated = "2025-04-06 01:40:04 UTC";
