@@ -1,4 +1,4 @@
-// Generated on 2025-04-18 16:23:04 UTC
+// Generated on 2025-04-19 01:26:04 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -69,7 +69,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "GYD", country: "Guyana", rate: 2.0966 },
   { code: "HKD", country: "Hong Kong", rate: 0.0776 },
   { code: "HNL", country: "Honduras", rate: 0.2591 },
-  { code: "HRK", country: "Croatia", rate: 0.0662 },
+  { code: "HRK", country: "Croatia", rate: 0.0661 },
   { code: "HTG", country: "Haiti", rate: 1.3042 },
   { code: "HUF", country: "Hungary", rate: 3.5911 },
   { code: "IDR", country: "Indonesia", rate: 168.6290 },
@@ -86,7 +86,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "KES", country: "Kenya", rate: 1.2950 },
   { code: "KGS", country: "Kyrgyzstan", rate: 0.8723 },
   { code: "KHR", country: "Cambodia", rate: 40.1500 },
-  { code: "KMF", country: "Comoros", rate: 4.3351 },
+  { code: "KMF", country: "Comoros", rate: 4.3350 },
   { code: "KPW", country: "North Korea", rate: 9.0001 },
   { code: "KRW", country: "South Korea", rate: 14.1839 },
   { code: "KWD", country: "Kuwait", rate: 0.0031 },
@@ -100,7 +100,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "LTL", country: "Lithuania", rate: 0.0295 },
   { code: "LVL", country: "Latvia", rate: 0.0060 },
   { code: "LYD", country: "Libya", rate: 0.0547 },
-  { code: "MAD", country: "Morocco", rate: 0.0927 },
+  { code: "MAD", country: "Morocco", rate: 0.0928 },
   { code: "MDL", country: "Moldova", rate: 0.1729 },
   { code: "MGA", country: "Madagascar", rate: 45.5289 },
   { code: "MKD", country: "North Macedonia", rate: 0.5409 },
@@ -113,9 +113,9 @@ export const exchangeRates: CurrencyData[] = [
   { code: "MWK", country: "Malawi", rate: 17.3600 },
   { code: "MXN", country: "Mexico", rate: 0.1972 },
   { code: "MYR", country: "Malaysia", rate: 0.0441 },
-  { code: "MZN", country: "Mozambique", rate: 0.6390 },
+  { code: "MZN", country: "Mozambique", rate: 0.6391 },
   { code: "NAD", country: "Namibia", rate: 0.1886 },
-  { code: "NGN", country: "Nigeria", rate: 16.0469 },
+  { code: "NGN", country: "Nigeria", rate: 16.0470 },
   { code: "NIO", country: "Nicaragua", rate: 0.3678 },
   { code: "NOK", country: "Norway", rate: 0.1047 },
   { code: "NPR", country: "Nepal", rate: 1.3650 },
@@ -171,12 +171,12 @@ export const exchangeRates: CurrencyData[] = [
   { code: "XCD", country: "Unknown Country", rate: 0.0270 },
   { code: "XDR", country: "Unknown Country", rate: 0.0072 },
   { code: "XOF", country: "West African CFA Franc (XOF)", rate: 5.7500 },
-  { code: "XPF", country: "CFP Franc", rate: 1.0277 },
+  { code: "XPF", country: "CFP Franc", rate: 1.0278 },
   { code: "YER", country: "Yemen", rate: 2.4525 },
   { code: "ZAR", country: "South Africa", rate: 0.1882 },
-  { code: "ZMK", country: "Zambia (Old Currency)", rate: 90.0121 },
+  { code: "ZMK", country: "Zambia (Old Currency)", rate: 90.0120 },
   { code: "ZMW", country: "Zambia", rate: 0.2846 },
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2025-04-18 16:23:04 UTC";
+export const lastUpdated = "2025-04-19 01:26:04 UTC";
