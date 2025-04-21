@@ -1,4 +1,4 @@
-// Generated on 2025-04-20 16:21:10 UTC
+// Generated on 2025-04-21 01:42:05 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -69,7 +69,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "GYD", country: "Guyana", rate: 2.0966 },
   { code: "HKD", country: "Hong Kong", rate: 0.0776 },
   { code: "HNL", country: "Honduras", rate: 0.2591 },
-  { code: "HRK", country: "Croatia", rate: 0.0661 },
+  { code: "HRK", country: "Croatia", rate: 0.0656 },
   { code: "HTG", country: "Haiti", rate: 1.3042 },
   { code: "HUF", country: "Hungary", rate: 3.5911 },
   { code: "IDR", country: "Indonesia", rate: 168.6290 },
@@ -95,7 +95,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "LAK", country: "Laos", rate: 216.3000 },
   { code: "LBP", country: "Lebanon", rate: 896.0000 },
   { code: "LKR", country: "Sri Lanka", rate: 2.9892 },
-  { code: "LRD", country: "Liberia", rate: 1.9998 },
+  { code: "LRD", country: "Liberia", rate: 1.9997 },
   { code: "LSL", country: "Lesotho", rate: 0.1886 },
   { code: "LTL", country: "Lithuania", rate: 0.0295 },
   { code: "LVL", country: "Latvia", rate: 0.0060 },
@@ -140,9 +140,9 @@ export const exchangeRates: CurrencyData[] = [
   { code: "SEK", country: "Sweden", rate: 0.0962 },
   { code: "SGD", country: "Singapore", rate: 0.0131 },
   { code: "SHP", country: "Saint Helena", rate: 0.0079 },
-  { code: "SLE", country: "Sierra Leone", rate: 0.2278 },
+  { code: "SLE", country: "Sierra Leone", rate: 0.2277 },
   { code: "SLL", country: "Sierra Leone (Old Currency)", rate: 209.6948 },
-  { code: "SOS", country: "Somalia", rate: 5.7150 },
+  { code: "SOS", country: "Somalia", rate: 5.7152 },
   { code: "SRD", country: "Suriname", rate: 0.3715 },
   { code: "STD", country: "São Tomé and Príncipe", rate: 206.9798 },
   { code: "SVC", country: "El Salvador", rate: 0.0875 },
@@ -179,4 +179,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2025-04-20 16:21:10 UTC";
+export const lastUpdated = "2025-04-21 01:42:05 UTC";
