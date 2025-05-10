@@ -1,4 +1,4 @@
-// Generated on 2025-05-10 08:23:15 UTC
+// Generated on 2025-05-10 16:22:04 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -73,7 +73,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "HTG", country: "Haiti", rate: 1.3055 },
   { code: "HUF", country: "Hungary", rate: 3.5926 },
   { code: "IDR", country: "Indonesia", rate: 165.5045 },
-  { code: "ILS", country: "Israel", rate: 0.0355 },
+  { code: "ILS", country: "Israel", rate: 0.0354 },
   { code: "IMP", country: "Isle of Man", rate: 0.0075 },
   { code: "INR", country: "India", rate: 0.8542 },
   { code: "IQD", country: "Iraq", rate: 13.1000 },
@@ -82,7 +82,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "JEP", country: "Jersey", rate: 0.0075 },
   { code: "JMD", country: "Jamaica", rate: 1.5889 },
   { code: "JOD", country: "Jordan", rate: 0.0071 },
-  { code: "JPY", country: "Japan", rate: 1.4538 },
+  { code: "JPY", country: "Japan", rate: 1.4543 },
   { code: "KES", country: "Kenya", rate: 1.2950 },
   { code: "KGS", country: "Kyrgyzstan", rate: 0.8745 },
   { code: "KHR", country: "Cambodia", rate: 40.1500 },
@@ -111,7 +111,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "MUR", country: "Mauritius", rate: 0.4571 },
   { code: "MVR", country: "Maldives", rate: 0.1540 },
   { code: "MWK", country: "Malawi", rate: 17.3700 },
-  { code: "MXN", country: "Mexico", rate: 0.1944 },
+  { code: "MXN", country: "Mexico", rate: 0.1945 },
   { code: "MYR", country: "Malaysia", rate: 0.0430 },
   { code: "MZN", country: "Mozambique", rate: 0.6390 },
   { code: "NAD", country: "Namibia", rate: 0.1825 },
@@ -153,7 +153,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "TMT", country: "Turkmenistan", rate: 0.0351 },
   { code: "TND", country: "Tunisia", rate: 0.0302 },
   { code: "TOP", country: "Tonga", rate: 0.0234 },
-  { code: "TRY", country: "Turkey", rate: 0.3877 },
+  { code: "TRY", country: "Turkey", rate: 0.3875 },
   { code: "TTD", country: "Trinidad and Tobago", rate: 0.0679 },
   { code: "TWD", country: "Taiwan", rate: 0.3026 },
   { code: "TZS", country: "Tanzania", rate: 26.9750 },
@@ -179,4 +179,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2025-05-10 08:23:15 UTC";
+export const lastUpdated = "2025-05-10 16:22:04 UTC";
