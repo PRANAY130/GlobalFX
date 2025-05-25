@@ -1,4 +1,4 @@
-// Generated on 2025-05-25 08:23:14 UTC
+// Generated on 2025-05-25 16:22:15 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -75,7 +75,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "IDR", country: "Indonesia", rate: 162.4625 },
   { code: "ILS", country: "Israel", rate: 0.0361 },
   { code: "IMP", country: "Isle of Man", rate: 0.0074 },
-  { code: "INR", country: "India", rate: 0.8514 },
+  { code: "INR", country: "India", rate: 0.8520 },
   { code: "IQD", country: "Iraq", rate: 13.0782 },
   { code: "IRR", country: "Iran", rate: 421.2500 },
   { code: "ISK", country: "Iceland", rate: 1.2766 },
@@ -88,7 +88,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "KHR", country: "Cambodia", rate: 39.9613 },
   { code: "KMF", country: "Comoros", rate: 4.3450 },
   { code: "KPW", country: "North Korea", rate: 9.0000 },
-  { code: "KRW", country: "South Korea", rate: 13.6573 },
+  { code: "KRW", country: "South Korea", rate: 13.6572 },
   { code: "KWD", country: "Kuwait", rate: 0.0031 },
   { code: "KYD", country: "Cayman Islands", rate: 0.0083 },
   { code: "KZT", country: "Kazakhstan", rate: 5.1061 },
@@ -126,7 +126,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "PGK", country: "Papua New Guinea", rate: 0.0409 },
   { code: "PHP", country: "Philippines", rate: 0.5537 },
   { code: "PKR", country: "Pakistan", rate: 2.8139 },
-  { code: "PLN", country: "Poland", rate: 0.0375 },
+  { code: "PLN", country: "Poland", rate: 0.0374 },
   { code: "PYG", country: "Paraguay", rate: 79.6499 },
   { code: "QAR", country: "Qatar", rate: 0.0364 },
   { code: "RON", country: "Romania", rate: 0.0445 },
@@ -138,7 +138,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "SCR", country: "Seychelles", rate: 0.1432 },
   { code: "SDG", country: "Sudan", rate: 6.0050 },
   { code: "SEK", country: "Sweden", rate: 0.0953 },
-  { code: "SGD", country: "Singapore", rate: 0.0129 },
+  { code: "SGD", country: "Singapore", rate: 0.0128 },
   { code: "SHP", country: "Saint Helena", rate: 0.0079 },
   { code: "SLE", country: "Sierra Leone", rate: 0.2272 },
   { code: "SLL", country: "Sierra Leone (Old Currency)", rate: 209.6950 },
@@ -179,4 +179,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2025-05-25 08:23:14 UTC";
+export const lastUpdated = "2025-05-25 16:22:15 UTC";
