@@ -1,4 +1,4 @@
-// Generated on 2025-06-14 08:24:04 UTC
+// Generated on 2025-06-14 16:23:04 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -131,7 +131,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "QAR", country: "Qatar", rate: 0.0363 },
   { code: "RON", country: "Romania", rate: 0.0435 },
   { code: "RSD", country: "Serbia", rate: 1.0142 },
-  { code: "RUB", country: "Russia", rate: 0.7949 },
+  { code: "RUB", country: "Russia", rate: 0.7978 },
   { code: "RWF", country: "Rwanda", rate: 14.3767 },
   { code: "SAR", country: "Saudi Arabia", rate: 0.0375 },
   { code: "SBD", country: "Solomon Islands", rate: 0.0835 },
@@ -179,4 +179,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2025-06-14 08:24:04 UTC";
+export const lastUpdated = "2025-06-14 16:23:04 UTC";
