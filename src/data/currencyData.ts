@@ -1,4 +1,4 @@
-// Generated on 2025-07-19 16:25:15 UTC
+// Generated on 2025-07-20 02:00:10 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -14,7 +14,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "AMD", country: "Armenia", rate: 3.8437 },
   { code: "ANG", country: "Netherlands Antilles", rate: 0.0179 },
   { code: "AOA", country: "Angola", rate: 9.1700 },
-  { code: "ARS", country: "Argentina", rate: 12.8578 },
+  { code: "ARS", country: "Argentina", rate: 12.7490 },
   { code: "AUD", country: "Australia", rate: 0.0153 },
   { code: "AWG", country: "Aruba", rate: 0.0180 },
   { code: "AZN", country: "Azerbaijan", rate: 0.0170 },
@@ -67,7 +67,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "GNF", country: "Guinea", rate: 86.8481 },
   { code: "GTQ", country: "Guatemala", rate: 0.0768 },
   { code: "GYD", country: "Guyana", rate: 2.0941 },
-  { code: "HKD", country: "Hong Kong", rate: 0.0785 },
+  { code: "HKD", country: "Hong Kong", rate: 0.0784 },
   { code: "HNL", country: "Honduras", rate: 0.2620 },
   { code: "HRK", country: "Croatia", rate: 0.0648 },
   { code: "HTG", country: "Haiti", rate: 1.3142 },
@@ -111,7 +111,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "MUR", country: "Mauritius", rate: 0.4570 },
   { code: "MVR", country: "Maldives", rate: 0.1540 },
   { code: "MWK", country: "Malawi", rate: 17.3559 },
-  { code: "MXN", country: "Mexico", rate: 0.1874 },
+  { code: "MXN", country: "Mexico", rate: 0.1875 },
   { code: "MYR", country: "Malaysia", rate: 0.0425 },
   { code: "MZN", country: "Mozambique", rate: 0.6396 },
   { code: "NAD", country: "Namibia", rate: 0.1772 },
@@ -119,7 +119,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "NIO", country: "Nicaragua", rate: 0.3684 },
   { code: "NOK", country: "Norway", rate: 0.1019 },
   { code: "NPR", country: "Nepal", rate: 1.3787 },
-  { code: "NZD", country: "New Zealand", rate: 0.0168 },
+  { code: "NZD", country: "New Zealand", rate: 0.0167 },
   { code: "OMR", country: "Oman", rate: 0.0038 },
   { code: "PAB", country: "Panama", rate: 0.0100 },
   { code: "PEN", country: "Peru", rate: 0.0356 },
@@ -131,13 +131,13 @@ export const exchangeRates: CurrencyData[] = [
   { code: "QAR", country: "Qatar", rate: 0.0364 },
   { code: "RON", country: "Romania", rate: 0.0436 },
   { code: "RSD", country: "Serbia", rate: 1.0074 },
-  { code: "RUB", country: "Russia", rate: 0.7852 },
+  { code: "RUB", country: "Russia", rate: 0.7862 },
   { code: "RWF", country: "Rwanda", rate: 14.4632 },
   { code: "SAR", country: "Saudi Arabia", rate: 0.0375 },
   { code: "SBD", country: "Solomon Islands", rate: 0.0830 },
   { code: "SCR", country: "Seychelles", rate: 0.1470 },
   { code: "SDG", country: "Sudan", rate: 6.0050 },
-  { code: "SEK", country: "Sweden", rate: 0.0968 },
+  { code: "SEK", country: "Sweden", rate: 0.0967 },
   { code: "SGD", country: "Singapore", rate: 0.0128 },
   { code: "SHP", country: "Saint Helena", rate: 0.0079 },
   { code: "SLE", country: "Sierra Leone", rate: 0.2290 },
@@ -154,7 +154,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "TMT", country: "Turkmenistan", rate: 0.0351 },
   { code: "TND", country: "Tunisia", rate: 0.0294 },
   { code: "TOP", country: "Tonga", rate: 0.0234 },
-  { code: "TRY", country: "Turkey", rate: 0.4039 },
+  { code: "TRY", country: "Turkey", rate: 0.4035 },
   { code: "TTD", country: "Trinidad and Tobago", rate: 0.0679 },
   { code: "TWD", country: "Taiwan", rate: 0.2941 },
   { code: "TZS", country: "Tanzania", rate: 26.0733 },
@@ -181,4 +181,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2025-07-19 16:25:15 UTC";
+export const lastUpdated = "2025-07-20 02:00:10 UTC";
