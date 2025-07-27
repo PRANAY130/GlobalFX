@@ -1,4 +1,4 @@
-// Generated on 2025-07-26 16:25:15 UTC
+// Generated on 2025-07-27 02:01:21 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -37,7 +37,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "BZD", country: "Belize", rate: 0.0201 },
   { code: "CAD", country: "Canada", rate: 0.0137 },
   { code: "CDF", country: "Democratic Republic of the Congo", rate: 28.8900 },
-  { code: "CHF", country: "Switzerland", rate: 0.0080 },
+  { code: "CHF", country: "Switzerland", rate: 0.0079 },
   { code: "CLF", country: "Chile", rate: 0.0002 },
   { code: "CLP", country: "Chile", rate: 9.4882 },
   { code: "CNH", country: "China (Offshore Yuan)", rate: 0.0717 },
@@ -51,7 +51,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "DJF", country: "Djibouti", rate: 1.7777 },
   { code: "DKK", country: "Denmark", rate: 0.0635 },
   { code: "DOP", country: "Dominican Republic", rate: 0.6057 },
-  { code: "DZD", country: "Algeria", rate: 1.2927 },
+  { code: "DZD", country: "Algeria", rate: 1.2953 },
   { code: "EGP", country: "Egypt", rate: 0.4911 },
   { code: "ERN", country: "Eritrea", rate: 0.1500 },
   { code: "ETB", country: "Ethiopia", rate: 1.3893 },
@@ -131,7 +131,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "QAR", country: "Qatar", rate: 0.0364 },
   { code: "RON", country: "Romania", rate: 0.0431 },
   { code: "RSD", country: "Serbia", rate: 0.9971 },
-  { code: "RUB", country: "Russia", rate: 0.7938 },
+  { code: "RUB", country: "Russia", rate: 0.7920 },
   { code: "RWF", country: "Rwanda", rate: 14.4299 },
   { code: "SAR", country: "Saudi Arabia", rate: 0.0375 },
   { code: "SBD", country: "Solomon Islands", rate: 0.0829 },
@@ -181,4 +181,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2025-07-26 16:25:15 UTC";
+export const lastUpdated = "2025-07-27 02:01:21 UTC";
