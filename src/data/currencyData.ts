@@ -1,4 +1,4 @@
-// Generated on 2025-08-03 02:03:04 UTC
+// Generated on 2025-08-03 08:26:05 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -181,4 +181,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2025-08-03 02:03:04 UTC";
+export const lastUpdated = "2025-08-03 08:26:05 UTC";
