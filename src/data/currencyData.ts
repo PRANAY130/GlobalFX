@@ -1,4 +1,4 @@
-// Generated on 2025-08-02 16:25:16 UTC
+// Generated on 2025-08-03 02:03:04 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -73,7 +73,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "HTG", country: "Haiti", rate: 1.2890 },
   { code: "HUF", country: "Hungary", rate: 3.4414 },
   { code: "IDR", country: "Indonesia", rate: 163.6795 },
-  { code: "ILS", country: "Israel", rate: 0.0342 },
+  { code: "ILS", country: "Israel", rate: 0.0341 },
   { code: "IMP", country: "Isle of Man", rate: 0.0075 },
   { code: "INR", country: "India", rate: 0.8717 },
   { code: "IQD", country: "Iraq", rate: 12.8985 },
@@ -154,7 +154,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "TMT", country: "Turkmenistan", rate: 0.0351 },
   { code: "TND", country: "Tunisia", rate: 0.0293 },
   { code: "TOP", country: "Tonga", rate: 0.0234 },
-  { code: "TRY", country: "Turkey", rate: 0.4065 },
+  { code: "TRY", country: "Turkey", rate: 0.4062 },
   { code: "TTD", country: "Trinidad and Tobago", rate: 0.0667 },
   { code: "TWD", country: "Taiwan", rate: 0.2971 },
   { code: "TZS", country: "Tanzania", rate: 24.9109 },
@@ -175,10 +175,10 @@ export const exchangeRates: CurrencyData[] = [
   { code: "XOF", country: "West African CFA Franc (XOF)", rate: 5.6594 },
   { code: "XPF", country: "CFP Franc", rate: 1.0289 },
   { code: "YER", country: "Yemen", rate: 2.4060 },
-  { code: "ZAR", country: "South Africa", rate: 0.1804 },
+  { code: "ZAR", country: "South Africa", rate: 0.1816 },
   { code: "ZMK", country: "Zambia (Old Currency)", rate: 90.0120 },
   { code: "ZMW", country: "Zambia", rate: 0.2252 },
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2025-08-02 16:25:16 UTC";
+export const lastUpdated = "2025-08-03 02:03:04 UTC";
