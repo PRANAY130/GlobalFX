@@ -1,4 +1,4 @@
-// Generated on 2025-08-03 08:26:05 UTC
+// Generated on 2025-08-03 16:26:16 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -73,7 +73,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "HTG", country: "Haiti", rate: 1.2890 },
   { code: "HUF", country: "Hungary", rate: 3.4414 },
   { code: "IDR", country: "Indonesia", rate: 163.6795 },
-  { code: "ILS", country: "Israel", rate: 0.0341 },
+  { code: "ILS", country: "Israel", rate: 0.0342 },
   { code: "IMP", country: "Isle of Man", rate: 0.0075 },
   { code: "INR", country: "India", rate: 0.8717 },
   { code: "IQD", country: "Iraq", rate: 12.8985 },
@@ -104,8 +104,8 @@ export const exchangeRates: CurrencyData[] = [
   { code: "MDL", country: "Moldova", rate: 0.1696 },
   { code: "MGA", country: "Madagascar", rate: 44.6918 },
   { code: "MKD", country: "North Macedonia", rate: 0.5311 },
-  { code: "MMK", country: "Myanmar (Burma)", rate: 20.9860 },
-  { code: "MNT", country: "Mongolia", rate: 35.9052 },
+  { code: "MMK", country: "Myanmar (Burma)", rate: 20.9925 },
+  { code: "MNT", country: "Mongolia", rate: 35.9288 },
   { code: "MOP", country: "Macau", rate: 0.0796 },
   { code: "MRU", country: "Mauritania", rate: 0.3928 },
   { code: "MUR", country: "Mauritius", rate: 0.4675 },
@@ -147,14 +147,14 @@ export const exchangeRates: CurrencyData[] = [
   { code: "STD", country: "São Tomé and Príncipe", rate: 206.9798 },
   { code: "STN", country: "Unknown Country", rate: 0.2114 },
   { code: "SVC", country: "El Salvador", rate: 0.0862 },
-  { code: "SYP", country: "Syria", rate: 130.0172 },
+  { code: "SYP", country: "Syria", rate: 130.0178 },
   { code: "SZL", country: "Swaziland", rate: 0.1803 },
   { code: "THB", country: "Thailand", rate: 0.3248 },
   { code: "TJS", country: "Tajikistan", rate: 0.0929 },
   { code: "TMT", country: "Turkmenistan", rate: 0.0351 },
   { code: "TND", country: "Tunisia", rate: 0.0293 },
   { code: "TOP", country: "Tonga", rate: 0.0234 },
-  { code: "TRY", country: "Turkey", rate: 0.4062 },
+  { code: "TRY", country: "Turkey", rate: 0.4065 },
   { code: "TTD", country: "Trinidad and Tobago", rate: 0.0667 },
   { code: "TWD", country: "Taiwan", rate: 0.2971 },
   { code: "TZS", country: "Tanzania", rate: 24.9109 },
@@ -164,7 +164,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "UZS", country: "Uzbekistan", rate: 124.9730 },
   { code: "VES", country: "Unknown Country", rate: 1.2349 },
   { code: "VND", country: "Vietnam", rate: 262.2000 },
-  { code: "VUV", country: "Vanuatu", rate: 1.2014 },
+  { code: "VUV", country: "Vanuatu", rate: 1.2059 },
   { code: "WST", country: "Samoa", rate: 0.0278 },
   { code: "XAF", country: "Unknown Country", rate: 5.6594 },
   { code: "XAG", country: "Unknown Country", rate: 0.0003 },
@@ -175,10 +175,10 @@ export const exchangeRates: CurrencyData[] = [
   { code: "XOF", country: "West African CFA Franc (XOF)", rate: 5.6594 },
   { code: "XPF", country: "CFP Franc", rate: 1.0289 },
   { code: "YER", country: "Yemen", rate: 2.4060 },
-  { code: "ZAR", country: "South Africa", rate: 0.1816 },
+  { code: "ZAR", country: "South Africa", rate: 0.1804 },
   { code: "ZMK", country: "Zambia (Old Currency)", rate: 90.0120 },
   { code: "ZMW", country: "Zambia", rate: 0.2252 },
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2025-08-03 08:26:05 UTC";
+export const lastUpdated = "2025-08-03 16:26:16 UTC";
