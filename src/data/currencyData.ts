@@ -1,4 +1,4 @@
-// Generated on 2025-08-23 01:36:23 UTC
+// Generated on 2025-08-23 08:23:05 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -57,12 +57,12 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ETB", country: "Ethiopia", rate: 1.4177 },
   { code: "EUR", country: "European Union", rate: 0.0085 },
   { code: "FJD", country: "Fiji", rate: 0.0226 },
-  { code: "FKP", country: "Falkland Islands", rate: 0.0075 },
+  { code: "FKP", country: "Falkland Islands", rate: 0.0074 },
   { code: "GBP", country: "United Kingdom", rate: 0.0074 },
   { code: "GEL", country: "Georgia", rate: 0.0270 },
-  { code: "GGP", country: "Guernsey", rate: 0.0075 },
+  { code: "GGP", country: "Guernsey", rate: 0.0074 },
   { code: "GHS", country: "Ghana", rate: 0.1100 },
-  { code: "GIP", country: "Gibraltar", rate: 0.0075 },
+  { code: "GIP", country: "Gibraltar", rate: 0.0074 },
   { code: "GMD", country: "Gambia", rate: 0.7250 },
   { code: "GNF", country: "Guinea", rate: 86.6593 },
   { code: "GTQ", country: "Guatemala", rate: 0.0767 },
@@ -74,12 +74,12 @@ export const exchangeRates: CurrencyData[] = [
   { code: "HUF", country: "Hungary", rate: 3.3734 },
   { code: "IDR", country: "Indonesia", rate: 162.3350 },
   { code: "ILS", country: "Israel", rate: 0.0337 },
-  { code: "IMP", country: "Isle of Man", rate: 0.0075 },
+  { code: "IMP", country: "Isle of Man", rate: 0.0074 },
   { code: "INR", country: "India", rate: 0.8733 },
   { code: "IQD", country: "Iraq", rate: 13.0924 },
   { code: "IRR", country: "Iran", rate: 420.5000 },
   { code: "ISK", country: "Iceland", rate: 1.2238 },
-  { code: "JEP", country: "Jersey", rate: 0.0075 },
+  { code: "JEP", country: "Jersey", rate: 0.0074 },
   { code: "JMD", country: "Jamaica", rate: 1.6024 },
   { code: "JOD", country: "Jordan", rate: 0.0071 },
   { code: "JPY", country: "Japan", rate: 1.4697 },
@@ -87,7 +87,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "KGS", country: "Kyrgyzstan", rate: 0.8743 },
   { code: "KHR", country: "Cambodia", rate: 40.0836 },
   { code: "KMF", country: "Comoros", rate: 4.2250 },
-  { code: "KPW", country: "North Korea", rate: 8.9997 },
+  { code: "KPW", country: "North Korea", rate: 8.9988 },
   { code: "KRW", country: "South Korea", rate: 13.8420 },
   { code: "KWD", country: "Kuwait", rate: 0.0031 },
   { code: "KYD", country: "Cayman Islands", rate: 0.0083 },
@@ -104,8 +104,8 @@ export const exchangeRates: CurrencyData[] = [
   { code: "MDL", country: "Moldova", rate: 0.1684 },
   { code: "MGA", country: "Madagascar", rate: 44.2640 },
   { code: "MKD", country: "North Macedonia", rate: 0.5305 },
-  { code: "MMK", country: "Myanmar (Burma)", rate: 20.9961 },
-  { code: "MNT", country: "Mongolia", rate: 35.9729 },
+  { code: "MMK", country: "Myanmar (Burma)", rate: 20.9896 },
+  { code: "MNT", country: "Mongolia", rate: 35.9750 },
   { code: "MOP", country: "Macau", rate: 0.0805 },
   { code: "MRU", country: "Mauritania", rate: 0.3986 },
   { code: "MUR", country: "Mauritius", rate: 0.4611 },
@@ -147,7 +147,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "STD", country: "São Tomé and Príncipe", rate: 206.9798 },
   { code: "STN", country: "Unknown Country", rate: 0.2112 },
   { code: "SVC", country: "El Salvador", rate: 0.0875 },
-  { code: "SYP", country: "Syria", rate: 130.0232 },
+  { code: "SYP", country: "Syria", rate: 130.0068 },
   { code: "SZL", country: "Swaziland", rate: 0.1763 },
   { code: "THB", country: "Thailand", rate: 0.3236 },
   { code: "TJS", country: "Tajikistan", rate: 0.0955 },
@@ -164,7 +164,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "UZS", country: "Uzbekistan", rate: 124.0884 },
   { code: "VES", country: "Unknown Country", rate: 1.3796 },
   { code: "VND", country: "Vietnam", rate: 263.5000 },
-  { code: "VUV", country: "Vanuatu", rate: 1.2030 },
+  { code: "VUV", country: "Vanuatu", rate: 1.2017 },
   { code: "WST", country: "Samoa", rate: 0.0271 },
   { code: "XAF", country: "Unknown Country", rate: 5.6544 },
   { code: "XAG", country: "Unknown Country", rate: 0.0003 },
@@ -181,4 +181,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2025-08-23 01:36:23 UTC";
+export const lastUpdated = "2025-08-23 08:23:05 UTC";
