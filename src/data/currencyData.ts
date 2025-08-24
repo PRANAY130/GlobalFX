@@ -1,4 +1,4 @@
-// Generated on 2025-08-23 16:21:16 UTC
+// Generated on 2025-08-24 01:48:05 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -67,9 +67,9 @@ export const exchangeRates: CurrencyData[] = [
   { code: "GNF", country: "Guinea", rate: 85.7435 },
   { code: "GTQ", country: "Guatemala", rate: 0.0758 },
   { code: "GYD", country: "Guyana", rate: 2.0683 },
-  { code: "HKD", country: "Hong Kong", rate: 0.0781 },
+  { code: "HKD", country: "Hong Kong", rate: 0.0782 },
   { code: "HNL", country: "Honduras", rate: 0.2587 },
-  { code: "HRK", country: "Croatia", rate: 0.0638 },
+  { code: "HRK", country: "Croatia", rate: 0.0643 },
   { code: "HTG", country: "Haiti", rate: 1.2941 },
   { code: "HUF", country: "Hungary", rate: 3.3734 },
   { code: "IDR", country: "Indonesia", rate: 162.3350 },
@@ -111,7 +111,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "MUR", country: "Mauritius", rate: 0.4611 },
   { code: "MVR", country: "Maldives", rate: 0.1541 },
   { code: "MWK", country: "Malawi", rate: 17.1496 },
-  { code: "MXN", country: "Mexico", rate: 0.1858 },
+  { code: "MXN", country: "Mexico", rate: 0.1860 },
   { code: "MYR", country: "Malaysia", rate: 0.0423 },
   { code: "MZN", country: "Mozambique", rate: 0.6390 },
   { code: "NAD", country: "Namibia", rate: 0.1745 },
@@ -119,7 +119,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "NIO", country: "Nicaragua", rate: 0.3639 },
   { code: "NOK", country: "Norway", rate: 0.1006 },
   { code: "NPR", country: "Nepal", rate: 1.3839 },
-  { code: "NZD", country: "New Zealand", rate: 0.0170 },
+  { code: "NZD", country: "New Zealand", rate: 0.0172 },
   { code: "OMR", country: "Oman", rate: 0.0038 },
   { code: "PAB", country: "Panama", rate: 0.0099 },
   { code: "PEN", country: "Peru", rate: 0.0347 },
@@ -137,7 +137,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "SBD", country: "Solomon Islands", rate: 0.0822 },
   { code: "SCR", country: "Seychelles", rate: 0.1505 },
   { code: "SDG", country: "Sudan", rate: 6.0050 },
-  { code: "SEK", country: "Sweden", rate: 0.0949 },
+  { code: "SEK", country: "Sweden", rate: 0.0950 },
   { code: "SGD", country: "Singapore", rate: 0.0128 },
   { code: "SHP", country: "Saint Helena", rate: 0.0079 },
   { code: "SLE", country: "Sierra Leone", rate: 0.2330 },
@@ -154,7 +154,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "TMT", country: "Turkmenistan", rate: 0.0350 },
   { code: "TND", country: "Tunisia", rate: 0.0290 },
   { code: "TOP", country: "Tonga", rate: 0.0234 },
-  { code: "TRY", country: "Turkey", rate: 0.4094 },
+  { code: "TRY", country: "Turkey", rate: 0.4118 },
   { code: "TTD", country: "Trinidad and Tobago", rate: 0.0672 },
   { code: "TWD", country: "Taiwan", rate: 0.3038 },
   { code: "TZS", country: "Tanzania", rate: 24.6765 },
@@ -181,4 +181,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2025-08-23 16:21:16 UTC";
+export const lastUpdated = "2025-08-24 01:48:05 UTC";
