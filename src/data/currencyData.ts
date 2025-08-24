@@ -1,4 +1,4 @@
-// Generated on 2025-08-24 08:23:15 UTC
+// Generated on 2025-08-24 16:22:18 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -14,7 +14,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "AMD", country: "Armenia", rate: 3.7784 },
   { code: "ANG", country: "Netherlands Antilles", rate: 0.0179 },
   { code: "AOA", country: "Angola", rate: 9.1700 },
-  { code: "ARS", country: "Argentina", rate: 13.1724 },
+  { code: "ARS", country: "Argentina", rate: 13.0008 },
   { code: "AUD", country: "Australia", rate: 0.0155 },
   { code: "AWG", country: "Aruba", rate: 0.0180 },
   { code: "AZN", country: "Azerbaijan", rate: 0.0170 },
@@ -22,7 +22,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "BBD", country: "Barbados", rate: 0.0199 },
   { code: "BDT", country: "Bangladesh", rate: 1.2027 },
   { code: "BGN", country: "Bulgaria", rate: 0.0167 },
-  { code: "BHD", country: "Bahrain", rate: 0.0038 },
+  { code: "BHD", country: "Bahrain", rate: 0.0037 },
   { code: "BIF", country: "Burundi", rate: 29.5015 },
   { code: "BMD", country: "Bermuda", rate: 0.0100 },
   { code: "BND", country: "Brunei", rate: 0.0128 },
@@ -35,7 +35,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "BYN", country: "Belarus", rate: 0.0333 },
   { code: "BYR", country: "Belarus (Old Currency)", rate: 196.0000 },
   { code: "BZD", country: "Belize", rate: 0.0198 },
-  { code: "CAD", country: "Canada", rate: 0.0138 },
+  { code: "CAD", country: "Canada", rate: 0.0139 },
   { code: "CDF", country: "Democratic Republic of the Congo", rate: 28.6600 },
   { code: "CHF", country: "Switzerland", rate: 0.0081 },
   { code: "CLF", country: "Chile", rate: 0.0002 },
@@ -82,7 +82,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "JEP", country: "Jersey", rate: 0.0074 },
   { code: "JMD", country: "Jamaica", rate: 1.5855 },
   { code: "JOD", country: "Jordan", rate: 0.0071 },
-  { code: "JPY", country: "Japan", rate: 1.4696 },
+  { code: "JPY", country: "Japan", rate: 1.4761 },
   { code: "KES", country: "Kenya", rate: 1.2773 },
   { code: "KGS", country: "Kyrgyzstan", rate: 0.8743 },
   { code: "KHR", country: "Cambodia", rate: 39.6605 },
@@ -181,4 +181,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2025-08-24 08:23:15 UTC";
+export const lastUpdated = "2025-08-24 16:22:18 UTC";
