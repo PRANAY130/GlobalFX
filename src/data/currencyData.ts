@@ -1,4 +1,4 @@
-// Generated on 2025-08-30 16:21:04 UTC
+// Generated on 2025-08-31 01:41:05 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -52,7 +52,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "DKK", country: "Denmark", rate: 0.0639 },
   { code: "DOP", country: "Dominican Republic", rate: 0.6287 },
   { code: "DZD", country: "Algeria", rate: 1.2813 },
-  { code: "EGP", country: "Egypt", rate: 0.4849 },
+  { code: "EGP", country: "Egypt", rate: 0.4797 },
   { code: "ERN", country: "Eritrea", rate: 0.1500 },
   { code: "ETB", country: "Ethiopia", rate: 1.4219 },
   { code: "EUR", country: "European Union", rate: 0.0086 },
@@ -181,4 +181,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2025-08-30 16:21:04 UTC";
+export const lastUpdated = "2025-08-31 01:41:05 UTC";
