@@ -1,4 +1,4 @@
-// Generated on 2025-09-14 08:22:07 UTC
+// Generated on 2025-09-14 16:20:05 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -14,7 +14,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "AMD", country: "Armenia", rate: 3.8214 },
   { code: "ANG", country: "Netherlands Antilles", rate: 0.0179 },
   { code: "AOA", country: "Angola", rate: 9.1700 },
-  { code: "ARS", country: "Argentina", rate: 14.4982 },
+  { code: "ARS", country: "Argentina", rate: 14.3244 },
   { code: "AUD", country: "Australia", rate: 0.0152 },
   { code: "AWG", country: "Aruba", rate: 0.0180 },
   { code: "AZN", country: "Azerbaijan", rate: 0.0170 },
@@ -67,7 +67,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "GNF", country: "Guinea", rate: 86.7124 },
   { code: "GTQ", country: "Guatemala", rate: 0.0766 },
   { code: "GYD", country: "Guyana", rate: 2.0917 },
-  { code: "HKD", country: "Hong Kong", rate: 0.0778 },
+  { code: "HKD", country: "Hong Kong", rate: 0.0780 },
   { code: "HNL", country: "Honduras", rate: 0.2619 },
   { code: "HRK", country: "Croatia", rate: 0.0642 },
   { code: "HTG", country: "Haiti", rate: 1.3082 },
@@ -82,7 +82,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "JEP", country: "Jersey", rate: 0.0074 },
   { code: "JMD", country: "Jamaica", rate: 1.6038 },
   { code: "JOD", country: "Jordan", rate: 0.0071 },
-  { code: "JPY", country: "Japan", rate: 1.4769 },
+  { code: "JPY", country: "Japan", rate: 1.4786 },
   { code: "KES", country: "Kenya", rate: 1.2917 },
   { code: "KGS", country: "Kyrgyzstan", rate: 0.8745 },
   { code: "KHR", country: "Cambodia", rate: 40.0716 },
@@ -111,7 +111,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "MUR", country: "Mauritius", rate: 0.4548 },
   { code: "MVR", country: "Maldives", rate: 0.1531 },
   { code: "MWK", country: "Malawi", rate: 17.3357 },
-  { code: "MXN", country: "Mexico", rate: 0.1844 },
+  { code: "MXN", country: "Mexico", rate: 0.1843 },
   { code: "MYR", country: "Malaysia", rate: 0.0421 },
   { code: "MZN", country: "Mozambique", rate: 0.6391 },
   { code: "NAD", country: "Namibia", rate: 0.1735 },
@@ -126,7 +126,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "PGK", country: "Papua New Guinea", rate: 0.0424 },
   { code: "PHP", country: "Philippines", rate: 0.5717 },
   { code: "PKR", country: "Pakistan", rate: 2.8385 },
-  { code: "PLN", country: "Poland", rate: 0.0363 },
+  { code: "PLN", country: "Poland", rate: 0.0362 },
   { code: "PYG", country: "Paraguay", rate: 71.4438 },
   { code: "QAR", country: "Qatar", rate: 0.0365 },
   { code: "RON", country: "Romania", rate: 0.0432 },
@@ -135,10 +135,10 @@ export const exchangeRates: CurrencyData[] = [
   { code: "RWF", country: "Rwanda", rate: 14.4873 },
   { code: "SAR", country: "Saudi Arabia", rate: 0.0375 },
   { code: "SBD", country: "Solomon Islands", rate: 0.0821 },
-  { code: "SCR", country: "Seychelles", rate: 0.1427 },
+  { code: "SCR", country: "Seychelles", rate: 0.1422 },
   { code: "SDG", country: "Sudan", rate: 6.0150 },
   { code: "SEK", country: "Sweden", rate: 0.0932 },
-  { code: "SGD", country: "Singapore", rate: 0.0128 },
+  { code: "SGD", country: "Singapore", rate: 0.0129 },
   { code: "SHP", country: "Saint Helena", rate: 0.0079 },
   { code: "SLE", country: "Sierra Leone", rate: 0.2338 },
   { code: "SLL", country: "Sierra Leone (Old Currency)", rate: 209.6950 },
@@ -175,10 +175,10 @@ export const exchangeRates: CurrencyData[] = [
   { code: "XOF", country: "West African CFA Franc (XOF)", rate: 5.5890 },
   { code: "XPF", country: "CFP Franc", rate: 1.0161 },
   { code: "YER", country: "Yemen", rate: 2.3955 },
-  { code: "ZAR", country: "South Africa", rate: 0.1739 },
+  { code: "ZAR", country: "South Africa", rate: 0.1740 },
   { code: "ZMK", country: "Zambia (Old Currency)", rate: 90.0120 },
   { code: "ZMW", country: "Zambia", rate: 0.2372 },
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2025-09-14 08:22:07 UTC";
+export const lastUpdated = "2025-09-14 16:20:05 UTC";
