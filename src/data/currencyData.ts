@@ -1,4 +1,4 @@
-// Generated on 2025-09-20 16:20:04 UTC
+// Generated on 2025-09-21 01:41:07 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -14,14 +14,14 @@ export const exchangeRates: CurrencyData[] = [
   { code: "AMD", country: "Armenia", rate: 3.8309 },
   { code: "ANG", country: "Netherlands Antilles", rate: 0.0179 },
   { code: "AOA", country: "Angola", rate: 9.1700 },
-  { code: "ARS", country: "Argentina", rate: 14.5730 },
+  { code: "ARS", country: "Argentina", rate: 14.7609 },
   { code: "AUD", country: "Australia", rate: 0.0152 },
   { code: "AWG", country: "Aruba", rate: 0.0141 },
   { code: "AZN", country: "Azerbaijan", rate: 0.0170 },
   { code: "BAM", country: "Bosnia and Herzegovina", rate: 0.0167 },
   { code: "BBD", country: "Barbados", rate: 0.0202 },
   { code: "BDT", country: "Bangladesh", rate: 1.2185 },
-  { code: "BGN", country: "Bulgaria", rate: 0.0167 },
+  { code: "BGN", country: "Bulgaria", rate: 0.0166 },
   { code: "BHD", country: "Bahrain", rate: 0.0038 },
   { code: "BIF", country: "Burundi", rate: 29.8829 },
   { code: "BMD", country: "Bermuda", rate: 0.0100 },
@@ -51,8 +51,8 @@ export const exchangeRates: CurrencyData[] = [
   { code: "DJF", country: "Djibouti", rate: 1.7830 },
   { code: "DKK", country: "Denmark", rate: 0.0635 },
   { code: "DOP", country: "Dominican Republic", rate: 0.6208 },
-  { code: "DZD", country: "Algeria", rate: 1.2806 },
-  { code: "EGP", country: "Egypt", rate: 0.4823 },
+  { code: "DZD", country: "Algeria", rate: 1.2958 },
+  { code: "EGP", country: "Egypt", rate: 0.4760 },
   { code: "ERN", country: "Eritrea", rate: 0.1500 },
   { code: "ETB", country: "Ethiopia", rate: 1.4370 },
   { code: "EUR", country: "European Union", rate: 0.0085 },
@@ -88,7 +88,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "KHR", country: "Cambodia", rate: 40.2418 },
   { code: "KMF", country: "Comoros", rate: 4.1800 },
   { code: "KPW", country: "North Korea", rate: 9.0000 },
-  { code: "KRW", country: "South Korea", rate: 13.9721 },
+  { code: "KRW", country: "South Korea", rate: 13.9723 },
   { code: "KWD", country: "Kuwait", rate: 0.0031 },
   { code: "KYD", country: "Cayman Islands", rate: 0.0083 },
   { code: "KZT", country: "Kazakhstan", rate: 5.4202 },
@@ -103,7 +103,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "MAD", country: "Morocco", rate: 0.0903 },
   { code: "MDL", country: "Moldova", rate: 0.1661 },
   { code: "MGA", country: "Madagascar", rate: 44.2685 },
-  { code: "MKD", country: "North Macedonia", rate: 0.5238 },
+  { code: "MKD", country: "North Macedonia", rate: 0.5239 },
   { code: "MMK", country: "Myanmar (Burma)", rate: 20.9909 },
   { code: "MNT", country: "Mongolia", rate: 35.9769 },
   { code: "MOP", country: "Macau", rate: 0.0802 },
@@ -181,4 +181,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2025-09-20 16:20:04 UTC";
+export const lastUpdated = "2025-09-21 01:41:07 UTC";
