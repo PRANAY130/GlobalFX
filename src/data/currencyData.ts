@@ -1,4 +1,4 @@
-// Generated on 2025-10-04 16:21:06 UTC
+// Generated on 2025-10-05 01:41:05 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -103,7 +103,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "MAD", country: "Morocco", rate: 0.0910 },
   { code: "MDL", country: "Moldova", rate: 0.1674 },
   { code: "MGA", country: "Madagascar", rate: 44.6318 },
-  { code: "MKD", country: "North Macedonia", rate: 0.5248 },
+  { code: "MKD", country: "North Macedonia", rate: 0.5249 },
   { code: "MMK", country: "Myanmar (Burma)", rate: 20.9927 },
   { code: "MNT", country: "Mongolia", rate: 35.9722 },
   { code: "MOP", country: "Macau", rate: 0.0801 },
@@ -181,4 +181,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2025-10-04 16:21:06 UTC";
+export const lastUpdated = "2025-10-05 01:41:05 UTC";
