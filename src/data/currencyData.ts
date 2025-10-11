@@ -1,4 +1,4 @@
-// Generated on 2025-10-11 08:22:20 UTC
+// Generated on 2025-10-11 16:21:05 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -51,7 +51,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "DJF", country: "Djibouti", rate: 1.7727 },
   { code: "DKK", country: "Denmark", rate: 0.0642 },
   { code: "DOP", country: "Dominican Republic", rate: 0.6277 },
-  { code: "DZD", country: "Algeria", rate: 1.3014 },
+  { code: "DZD", country: "Algeria", rate: 1.2957 },
   { code: "EGP", country: "Egypt", rate: 0.4735 },
   { code: "ERN", country: "Eritrea", rate: 0.1500 },
   { code: "ETB", country: "Ethiopia", rate: 1.4675 },
@@ -73,7 +73,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "HTG", country: "Haiti", rate: 1.3041 },
   { code: "HUF", country: "Hungary", rate: 3.3802 },
   { code: "IDR", country: "Indonesia", rate: 166.0460 },
-  { code: "ILS", country: "Israel", rate: 0.0330 },
+  { code: "ILS", country: "Israel", rate: 0.0327 },
   { code: "IMP", country: "Isle of Man", rate: 0.0075 },
   { code: "INR", country: "India", rate: 0.8876 },
   { code: "IQD", country: "Iraq", rate: 13.0414 },
@@ -82,7 +82,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "JEP", country: "Jersey", rate: 0.0075 },
   { code: "JMD", country: "Jamaica", rate: 1.6008 },
   { code: "JOD", country: "Jordan", rate: 0.0071 },
-  { code: "JPY", country: "Japan", rate: 1.5199 },
+  { code: "JPY", country: "Japan", rate: 1.5120 },
   { code: "KES", country: "Kenya", rate: 1.2856 },
   { code: "KGS", country: "Kyrgyzstan", rate: 0.8745 },
   { code: "KHR", country: "Cambodia", rate: 40.0705 },
@@ -133,7 +133,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "RSD", country: "Serbia", rate: 1.0080 },
   { code: "RUB", country: "Russia", rate: 0.8078 },
   { code: "RWF", country: "Rwanda", rate: 14.4445 },
-  { code: "SAR", country: "Saudi Arabia", rate: 0.0375 },
+  { code: "SAR", country: "Saudi Arabia", rate: 0.0374 },
   { code: "SBD", country: "Solomon Islands", rate: 0.0823 },
   { code: "SCR", country: "Seychelles", rate: 0.1479 },
   { code: "SDG", country: "Sudan", rate: 6.0150 },
@@ -154,7 +154,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "TMT", country: "Turkmenistan", rate: 0.0350 },
   { code: "TND", country: "Tunisia", rate: 0.0293 },
   { code: "TOP", country: "Tonga", rate: 0.0234 },
-  { code: "TRY", country: "Turkey", rate: 0.4182 },
+  { code: "TRY", country: "Turkey", rate: 0.4171 },
   { code: "TTD", country: "Trinidad and Tobago", rate: 0.0676 },
   { code: "TWD", country: "Taiwan", rate: 0.3072 },
   { code: "TZS", country: "Tanzania", rate: 24.4415 },
@@ -181,4 +181,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2025-10-11 08:22:20 UTC";
+export const lastUpdated = "2025-10-11 16:21:05 UTC";
