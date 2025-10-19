@@ -1,4 +1,4 @@
-// Generated on 2025-10-18 16:21:14 UTC
+// Generated on 2025-10-19 01:46:04 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -75,7 +75,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "IDR", country: "Indonesia", rate: 165.7265 },
   { code: "ILS", country: "Israel", rate: 0.0331 },
   { code: "IMP", country: "Isle of Man", rate: 0.0075 },
-  { code: "INR", country: "India", rate: 0.8800 },
+  { code: "INR", country: "India", rate: 0.8803 },
   { code: "IQD", country: "Iraq", rate: 13.1400 },
   { code: "IRR", country: "Iran", rate: 420.6250 },
   { code: "ISK", country: "Iceland", rate: 1.2171 },
@@ -137,7 +137,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "SBD", country: "Solomon Islands", rate: 0.0824 },
   { code: "SCR", country: "Seychelles", rate: 0.1392 },
   { code: "SDG", country: "Sudan", rate: 6.0150 },
-  { code: "SEK", country: "Sweden", rate: 0.0943 },
+  { code: "SEK", country: "Sweden", rate: 0.0946 },
   { code: "SGD", country: "Singapore", rate: 0.0130 },
   { code: "SHP", country: "Saint Helena", rate: 0.0075 },
   { code: "SLE", country: "Sierra Leone", rate: 0.2312 },
@@ -154,7 +154,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "TMT", country: "Turkmenistan", rate: 0.0350 },
   { code: "TND", country: "Tunisia", rate: 0.0293 },
   { code: "TOP", country: "Tonga", rate: 0.0234 },
-  { code: "TRY", country: "Turkey", rate: 0.4194 },
+  { code: "TRY", country: "Turkey", rate: 0.4188 },
   { code: "TTD", country: "Trinidad and Tobago", rate: 0.0680 },
   { code: "TWD", country: "Taiwan", rate: 0.3064 },
   { code: "TZS", country: "Tanzania", rate: 24.6746 },
@@ -181,4 +181,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2025-10-18 16:21:14 UTC";
+export const lastUpdated = "2025-10-19 01:46:04 UTC";
