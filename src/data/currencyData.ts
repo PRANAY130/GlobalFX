@@ -1,4 +1,4 @@
-// Generated on 2025-11-09 01:44:14 UTC
+// Generated on 2025-11-09 08:22:05 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -73,7 +73,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "HTG", country: "Haiti", rate: 1.3305 },
   { code: "HUF", country: "Hungary", rate: 3.3266 },
   { code: "IDR", country: "Indonesia", rate: 166.8550 },
-  { code: "ILS", country: "Israel", rate: 0.0325 },
+  { code: "ILS", country: "Israel", rate: 0.0326 },
   { code: "IMP", country: "Isle of Man", rate: 0.0076 },
   { code: "INR", country: "India", rate: 0.8864 },
   { code: "IQD", country: "Iraq", rate: 13.0947 },
@@ -87,7 +87,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "KGS", country: "Kyrgyzstan", rate: 0.8745 },
   { code: "KHR", country: "Cambodia", rate: 40.2326 },
   { code: "KMF", country: "Comoros", rate: 4.2100 },
-  { code: "KPW", country: "North Korea", rate: 9.0000 },
+  { code: "KPW", country: "North Korea", rate: 9.0002 },
   { code: "KRW", country: "South Korea", rate: 14.5599 },
   { code: "KWD", country: "Kuwait", rate: 0.0031 },
   { code: "KYD", country: "Cayman Islands", rate: 0.0083 },
@@ -104,8 +104,8 @@ export const exchangeRates: CurrencyData[] = [
   { code: "MDL", country: "Moldova", rate: 0.1704 },
   { code: "MGA", country: "Madagascar", rate: 44.9286 },
   { code: "MKD", country: "North Macedonia", rate: 0.5321 },
-  { code: "MMK", country: "Myanmar (Burma)", rate: 20.9946 },
-  { code: "MNT", country: "Mongolia", rate: 35.8284 },
+  { code: "MMK", country: "Myanmar (Burma)", rate: 20.9987 },
+  { code: "MNT", country: "Mongolia", rate: 35.8079 },
   { code: "MOP", country: "Macau", rate: 0.0801 },
   { code: "MRU", country: "Mauritania", rate: 0.3960 },
   { code: "MUR", country: "Mauritius", rate: 0.4591 },
@@ -117,7 +117,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "NAD", country: "Namibia", rate: 0.1732 },
   { code: "NGN", country: "Nigeria", rate: 14.3600 },
   { code: "NIO", country: "Nicaragua", rate: 0.3678 },
-  { code: "NOK", country: "Norway", rate: 0.1015 },
+  { code: "NOK", country: "Norway", rate: 0.1016 },
   { code: "NPR", country: "Nepal", rate: 1.4176 },
   { code: "NZD", country: "New Zealand", rate: 0.0178 },
   { code: "OMR", country: "Oman", rate: 0.0038 },
@@ -147,7 +147,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "STD", country: "São Tomé and Príncipe", rate: 206.9798 },
   { code: "STN", country: "Unknown Country", rate: 0.2119 },
   { code: "SVC", country: "El Salvador", rate: 0.0875 },
-  { code: "SYP", country: "Syria", rate: 110.5688 },
+  { code: "SYP", country: "Syria", rate: 110.5686 },
   { code: "SZL", country: "Swaziland", rate: 0.1732 },
   { code: "THB", country: "Thailand", rate: 0.3240 },
   { code: "TJS", country: "Tajikistan", rate: 0.0923 },
@@ -164,7 +164,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "UZS", country: "Uzbekistan", rate: 120.5519 },
   { code: "VES", country: "Unknown Country", rate: 2.2819 },
   { code: "VND", country: "Vietnam", rate: 263.1000 },
-  { code: "VUV", country: "Vanuatu", rate: 1.2219 },
+  { code: "VUV", country: "Vanuatu", rate: 1.2230 },
   { code: "WST", country: "Samoa", rate: 0.0282 },
   { code: "XAF", country: "Unknown Country", rate: 5.6730 },
   { code: "XAG", country: "Unknown Country", rate: 0.0002 },
@@ -181,4 +181,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2025-11-09 01:44:14 UTC";
+export const lastUpdated = "2025-11-09 08:22:05 UTC";
