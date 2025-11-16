@@ -1,4 +1,4 @@
-// Generated on 2025-11-16 01:47:08 UTC
+// Generated on 2025-11-16 08:25:03 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -104,8 +104,8 @@ export const exchangeRates: CurrencyData[] = [
   { code: "MDL", country: "Moldova", rate: 0.1687 },
   { code: "MGA", country: "Madagascar", rate: 44.6863 },
   { code: "MKD", country: "North Macedonia", rate: 0.5292 },
-  { code: "MMK", country: "Myanmar (Burma)", rate: 20.9961 },
-  { code: "MNT", country: "Mongolia", rate: 35.7274 },
+  { code: "MMK", country: "Myanmar (Burma)", rate: 20.9920 },
+  { code: "MNT", country: "Mongolia", rate: 35.7389 },
   { code: "MOP", country: "Macau", rate: 0.0800 },
   { code: "MRU", country: "Mauritania", rate: 0.3958 },
   { code: "MUR", country: "Mauritius", rate: 0.4565 },
@@ -147,7 +147,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "STD", country: "São Tomé and Príncipe", rate: 206.9798 },
   { code: "STN", country: "Unknown Country", rate: 0.2107 },
   { code: "SVC", country: "El Salvador", rate: 0.0875 },
-  { code: "SYP", country: "Syria", rate: 110.5688 },
+  { code: "SYP", country: "Syria", rate: 110.5685 },
   { code: "SZL", country: "Swaziland", rate: 0.1713 },
   { code: "THB", country: "Thailand", rate: 0.3241 },
   { code: "TJS", country: "Tajikistan", rate: 0.0923 },
@@ -164,7 +164,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "UZS", country: "Uzbekistan", rate: 120.3303 },
   { code: "VES", country: "Unknown Country", rate: 2.3616 },
   { code: "VND", country: "Vietnam", rate: 263.5000 },
-  { code: "VUV", country: "Vanuatu", rate: 1.2187 },
+  { code: "VUV", country: "Vanuatu", rate: 1.2185 },
   { code: "WST", country: "Samoa", rate: 0.0281 },
   { code: "XAF", country: "Unknown Country", rate: 5.6424 },
   { code: "XAG", country: "Unknown Country", rate: 0.0002 },
@@ -181,4 +181,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2025-11-16 01:47:08 UTC";
+export const lastUpdated = "2025-11-16 08:25:03 UTC";
