@@ -1,4 +1,4 @@
-// Generated on 2025-12-06 08:26:06 UTC
+// Generated on 2025-12-06 16:24:08 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -51,7 +51,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "DJF", country: "Djibouti", rate: 1.7807 },
   { code: "DKK", country: "Denmark", rate: 0.0641 },
   { code: "DOP", country: "Dominican Republic", rate: 0.6400 },
-  { code: "DZD", country: "Algeria", rate: 1.3010 },
+  { code: "DZD", country: "Algeria", rate: 1.2972 },
   { code: "EGP", country: "Egypt", rate: 0.4748 },
   { code: "ERN", country: "Eritrea", rate: 0.1500 },
   { code: "ETB", country: "Ethiopia", rate: 1.5511 },
@@ -75,7 +75,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "IDR", country: "Indonesia", rate: 166.8955 },
   { code: "ILS", country: "Israel", rate: 0.0324 },
   { code: "IMP", country: "Isle of Man", rate: 0.0075 },
-  { code: "INR", country: "India", rate: 0.8996 },
+  { code: "INR", country: "India", rate: 0.8995 },
   { code: "IQD", country: "Iraq", rate: 13.1001 },
   { code: "IRR", country: "Iran", rate: 421.1250 },
   { code: "ISK", country: "Iceland", rate: 1.2798 },
@@ -87,8 +87,8 @@ export const exchangeRates: CurrencyData[] = [
   { code: "KGS", country: "Kyrgyzstan", rate: 0.8745 },
   { code: "KHR", country: "Cambodia", rate: 40.0378 },
   { code: "KMF", country: "Comoros", rate: 4.2200 },
-  { code: "KPW", country: "North Korea", rate: 8.9999 },
-  { code: "KRW", country: "South Korea", rate: 14.7380 },
+  { code: "KPW", country: "North Korea", rate: 9.0004 },
+  { code: "KRW", country: "South Korea", rate: 14.7381 },
   { code: "KWD", country: "Kuwait", rate: 0.0031 },
   { code: "KYD", country: "Cayman Islands", rate: 0.0083 },
   { code: "KZT", country: "Kazakhstan", rate: 5.0571 },
@@ -104,8 +104,8 @@ export const exchangeRates: CurrencyData[] = [
   { code: "MDL", country: "Moldova", rate: 0.1701 },
   { code: "MGA", country: "Madagascar", rate: 44.6057 },
   { code: "MKD", country: "North Macedonia", rate: 0.5293 },
-  { code: "MMK", country: "Myanmar (Burma)", rate: 20.9994 },
-  { code: "MNT", country: "Mongolia", rate: 35.4650 },
+  { code: "MMK", country: "Myanmar (Burma)", rate: 20.9968 },
+  { code: "MNT", country: "Mongolia", rate: 35.4860 },
   { code: "MOP", country: "Macau", rate: 0.0802 },
   { code: "MRU", country: "Mauritania", rate: 0.3988 },
   { code: "MUR", country: "Mauritius", rate: 0.4607 },
@@ -135,7 +135,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "RWF", country: "Rwanda", rate: 14.5494 },
   { code: "SAR", country: "Saudi Arabia", rate: 0.0375 },
   { code: "SBD", country: "Solomon Islands", rate: 0.0823 },
-  { code: "SCR", country: "Seychelles", rate: 0.1355 },
+  { code: "SCR", country: "Seychelles", rate: 0.1352 },
   { code: "SDG", country: "Sudan", rate: 6.0150 },
   { code: "SEK", country: "Sweden", rate: 0.0940 },
   { code: "SGD", country: "Singapore", rate: 0.0130 },
@@ -147,7 +147,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "STD", country: "São Tomé and Príncipe", rate: 206.9798 },
   { code: "STN", country: "Unknown Country", rate: 0.2104 },
   { code: "SVC", country: "El Salvador", rate: 0.0875 },
-  { code: "SYP", country: "Syria", rate: 110.5824 },
+  { code: "SYP", country: "Syria", rate: 110.5745 },
   { code: "SZL", country: "Swaziland", rate: 0.1693 },
   { code: "THB", country: "Thailand", rate: 0.3188 },
   { code: "TJS", country: "Tajikistan", rate: 0.0917 },
@@ -181,4 +181,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2025-12-06 08:26:06 UTC";
+export const lastUpdated = "2025-12-06 16:24:08 UTC";
