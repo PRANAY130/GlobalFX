@@ -1,4 +1,4 @@
-// Generated on 2025-12-07 01:53:07 UTC
+// Generated on 2025-12-07 08:26:04 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -135,7 +135,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "RWF", country: "Rwanda", rate: 14.5494 },
   { code: "SAR", country: "Saudi Arabia", rate: 0.0375 },
   { code: "SBD", country: "Solomon Islands", rate: 0.0823 },
-  { code: "SCR", country: "Seychelles", rate: 0.1355 },
+  { code: "SCR", country: "Seychelles", rate: 0.1352 },
   { code: "SDG", country: "Sudan", rate: 6.0150 },
   { code: "SEK", country: "Sweden", rate: 0.0940 },
   { code: "SGD", country: "Singapore", rate: 0.0130 },
@@ -181,4 +181,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2025-12-07 01:53:07 UTC";
+export const lastUpdated = "2025-12-07 08:26:04 UTC";
