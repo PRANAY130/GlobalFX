@@ -1,4 +1,4 @@
-// Generated on 2025-12-21 08:27:04 UTC
+// Generated on 2025-12-21 16:25:07 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -67,7 +67,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "GNF", country: "Guinea", rate: 87.4173 },
   { code: "GTQ", country: "Guatemala", rate: 0.0766 },
   { code: "GYD", country: "Guyana", rate: 2.0923 },
-  { code: "HKD", country: "Hong Kong", rate: 0.0778 },
+  { code: "HKD", country: "Hong Kong", rate: 0.0781 },
   { code: "HNL", country: "Honduras", rate: 0.2635 },
   { code: "HRK", country: "Croatia", rate: 0.0643 },
   { code: "HTG", country: "Haiti", rate: 1.3112 },
@@ -82,7 +82,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "JEP", country: "Jersey", rate: 0.0075 },
   { code: "JMD", country: "Jamaica", rate: 1.6002 },
   { code: "JOD", country: "Jordan", rate: 0.0071 },
-  { code: "JPY", country: "Japan", rate: 1.5776 },
+  { code: "JPY", country: "Japan", rate: 1.5749 },
   { code: "KES", country: "Kenya", rate: 1.2891 },
   { code: "KGS", country: "Kyrgyzstan", rate: 0.8745 },
   { code: "KHR", country: "Cambodia", rate: 40.1349 },
@@ -111,7 +111,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "MUR", country: "Mauritius", rate: 0.4615 },
   { code: "MVR", country: "Maldives", rate: 0.1545 },
   { code: "MWK", country: "Malawi", rate: 17.3417 },
-  { code: "MXN", country: "Mexico", rate: 0.1803 },
+  { code: "MXN", country: "Mexico", rate: 0.1823 },
   { code: "MYR", country: "Malaysia", rate: 0.0408 },
   { code: "MZN", country: "Mozambique", rate: 0.6390 },
   { code: "NAD", country: "Namibia", rate: 0.1678 },
@@ -181,4 +181,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2025-12-21 08:27:04 UTC";
+export const lastUpdated = "2025-12-21 16:25:07 UTC";
