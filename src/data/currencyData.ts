@@ -1,4 +1,4 @@
-// Generated on 2025-12-28 08:28:07 UTC
+// Generated on 2025-12-28 16:26:04 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -49,7 +49,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "CVE", country: "Cape Verde", rate: 0.9351 },
   { code: "CZK", country: "Czech Republic", rate: 0.2059 },
   { code: "DJF", country: "Djibouti", rate: 1.7772 },
-  { code: "DKK", country: "Denmark", rate: 0.0634 },
+  { code: "DKK", country: "Denmark", rate: 0.0635 },
   { code: "DOP", country: "Dominican Republic", rate: 0.6269 },
   { code: "DZD", country: "Algeria", rate: 1.2970 },
   { code: "EGP", country: "Egypt", rate: 0.4755 },
@@ -88,7 +88,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "KHR", country: "Cambodia", rate: 40.0885 },
   { code: "KMF", country: "Comoros", rate: 4.1800 },
   { code: "KPW", country: "North Korea", rate: 9.0001 },
-  { code: "KRW", country: "South Korea", rate: 14.4739 },
+  { code: "KRW", country: "South Korea", rate: 14.4233 },
   { code: "KWD", country: "Kuwait", rate: 0.0031 },
   { code: "KYD", country: "Cayman Islands", rate: 0.0083 },
   { code: "KZT", country: "Kazakhstan", rate: 5.1403 },
@@ -181,4 +181,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2025-12-28 08:28:07 UTC";
+export const lastUpdated = "2025-12-28 16:26:04 UTC";
