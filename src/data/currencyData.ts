@@ -1,4 +1,4 @@
-// Generated on 2025-12-27 16:26:04 UTC
+// Generated on 2025-12-28 01:59:07 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -88,7 +88,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "KHR", country: "Cambodia", rate: 40.0885 },
   { code: "KMF", country: "Comoros", rate: 4.1800 },
   { code: "KPW", country: "North Korea", rate: 8.9997 },
-  { code: "KRW", country: "South Korea", rate: 14.4739 },
+  { code: "KRW", country: "South Korea", rate: 14.4233 },
   { code: "KWD", country: "Kuwait", rate: 0.0031 },
   { code: "KYD", country: "Cayman Islands", rate: 0.0083 },
   { code: "KZT", country: "Kazakhstan", rate: 5.1403 },
@@ -181,4 +181,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2025-12-27 16:26:04 UTC";
+export const lastUpdated = "2025-12-28 01:59:07 UTC";
