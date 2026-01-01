@@ -1,4 +1,4 @@
-// Generated on 2026-01-01 02:00:06 UTC
+// Generated on 2026-01-01 08:31:06 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -17,7 +17,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ARS", country: "Argentina", rate: 14.5149 },
   { code: "AUD", country: "Australia", rate: 0.0150 },
   { code: "AWG", country: "Aruba", rate: 0.0180 },
-  { code: "AZN", country: "Azerbaijan", rate: 0.0171 },
+  { code: "AZN", country: "Azerbaijan", rate: 0.0170 },
   { code: "BAM", country: "Bosnia and Herzegovina", rate: 0.0167 },
   { code: "BBD", country: "Barbados", rate: 0.0202 },
   { code: "BDT", country: "Bangladesh", rate: 1.2238 },
@@ -59,7 +59,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "FJD", country: "Fiji", rate: 0.0227 },
   { code: "FKP", country: "Falkland Islands", rate: 0.0074 },
   { code: "GBP", country: "United Kingdom", rate: 0.0074 },
-  { code: "GEL", country: "Georgia", rate: 0.0270 },
+  { code: "GEL", country: "Georgia", rate: 0.0269 },
   { code: "GGP", country: "Guernsey", rate: 0.0074 },
   { code: "GHS", country: "Ghana", rate: 0.1051 },
   { code: "GIP", country: "Gibraltar", rate: 0.0074 },
@@ -87,7 +87,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "KGS", country: "Kyrgyzstan", rate: 0.8744 },
   { code: "KHR", country: "Cambodia", rate: 40.0981 },
   { code: "KMF", country: "Comoros", rate: 4.2000 },
-  { code: "KPW", country: "North Korea", rate: 9.0004 },
+  { code: "KPW", country: "North Korea", rate: 8.9999 },
   { code: "KRW", country: "South Korea", rate: 14.4464 },
   { code: "KWD", country: "Kuwait", rate: 0.0031 },
   { code: "KYD", country: "Cayman Islands", rate: 0.0083 },
@@ -104,8 +104,8 @@ export const exchangeRates: CurrencyData[] = [
   { code: "MDL", country: "Moldova", rate: 0.1684 },
   { code: "MGA", country: "Madagascar", rate: 45.9335 },
   { code: "MKD", country: "North Macedonia", rate: 0.5246 },
-  { code: "MMK", country: "Myanmar (Burma)", rate: 20.9984 },
-  { code: "MNT", country: "Mongolia", rate: 35.5910 },
+  { code: "MMK", country: "Myanmar (Burma)", rate: 21.0153 },
+  { code: "MNT", country: "Mongolia", rate: 35.5895 },
   { code: "MOP", country: "Macau", rate: 0.0802 },
   { code: "MRU", country: "Mauritania", rate: 0.3974 },
   { code: "MUR", country: "Mauritius", rate: 0.4625 },
@@ -147,7 +147,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "STD", country: "São Tomé and Príncipe", rate: 206.9798 },
   { code: "STN", country: "Unknown Country", rate: 0.2087 },
   { code: "SVC", country: "El Salvador", rate: 0.0876 },
-  { code: "SYP", country: "Syria", rate: 110.5915 },
+  { code: "SYP", country: "Syria", rate: 110.5690 },
   { code: "SZL", country: "Swaziland", rate: 0.1656 },
   { code: "THB", country: "Thailand", rate: 0.3149 },
   { code: "TJS", country: "Tajikistan", rate: 0.0924 },
@@ -164,7 +164,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "UZS", country: "Uzbekistan", rate: 120.1326 },
   { code: "VES", country: "Unknown Country", rate: 2.9777 },
   { code: "VND", country: "Vietnam", rate: 263.0000 },
-  { code: "VUV", country: "Vanuatu", rate: 1.2074 },
+  { code: "VUV", country: "Vanuatu", rate: 1.2079 },
   { code: "WST", country: "Samoa", rate: 0.0278 },
   { code: "XAF", country: "Unknown Country", rate: 5.5880 },
   { code: "XAG", country: "Unknown Country", rate: 0.0001 },
@@ -176,9 +176,9 @@ export const exchangeRates: CurrencyData[] = [
   { code: "XPF", country: "CFP Franc", rate: 1.0160 },
   { code: "YER", country: "Yemen", rate: 2.3845 },
   { code: "ZAR", country: "South Africa", rate: 0.1657 },
-  { code: "ZMK", country: "Zambia (Old Currency)", rate: 90.0120 },
+  { code: "ZMK", country: "Zambia (Old Currency)", rate: 90.0121 },
   { code: "ZMW", country: "Zambia", rate: 0.2219 },
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2026-01-01 02:00:06 UTC";
+export const lastUpdated = "2026-01-01 08:31:06 UTC";
