@@ -1,4 +1,4 @@
-// Generated on 2026-01-01 08:31:06 UTC
+// Generated on 2026-01-01 16:28:07 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -59,7 +59,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "FJD", country: "Fiji", rate: 0.0227 },
   { code: "FKP", country: "Falkland Islands", rate: 0.0074 },
   { code: "GBP", country: "United Kingdom", rate: 0.0074 },
-  { code: "GEL", country: "Georgia", rate: 0.0269 },
+  { code: "GEL", country: "Georgia", rate: 0.0270 },
   { code: "GGP", country: "Guernsey", rate: 0.0074 },
   { code: "GHS", country: "Ghana", rate: 0.1051 },
   { code: "GIP", country: "Gibraltar", rate: 0.0074 },
@@ -136,7 +136,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "SAR", country: "Saudi Arabia", rate: 0.0375 },
   { code: "SBD", country: "Solomon Islands", rate: 0.0814 },
   { code: "SCR", country: "Seychelles", rate: 0.1382 },
-  { code: "SDG", country: "Sudan", rate: 6.0150 },
+  { code: "SDG", country: "Sudan", rate: 6.0151 },
   { code: "SEK", country: "Sweden", rate: 0.0923 },
   { code: "SGD", country: "Singapore", rate: 0.0129 },
   { code: "SHP", country: "Saint Helena", rate: 0.0075 },
@@ -176,9 +176,9 @@ export const exchangeRates: CurrencyData[] = [
   { code: "XPF", country: "CFP Franc", rate: 1.0160 },
   { code: "YER", country: "Yemen", rate: 2.3845 },
   { code: "ZAR", country: "South Africa", rate: 0.1657 },
-  { code: "ZMK", country: "Zambia (Old Currency)", rate: 90.0121 },
+  { code: "ZMK", country: "Zambia (Old Currency)", rate: 90.0120 },
   { code: "ZMW", country: "Zambia", rate: 0.2219 },
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2026-01-01 08:31:06 UTC";
+export const lastUpdated = "2026-01-01 16:28:07 UTC";
