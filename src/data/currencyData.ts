@@ -1,4 +1,4 @@
-// Generated on 2026-01-18 08:28:07 UTC
+// Generated on 2026-01-18 16:26:03 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -67,7 +67,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "GNF", country: "Guinea", rate: 87.6567 },
   { code: "GTQ", country: "Guatemala", rate: 0.0768 },
   { code: "GYD", country: "Guyana", rate: 2.0944 },
-  { code: "HKD", country: "Hong Kong", rate: 0.0780 },
+  { code: "HKD", country: "Hong Kong", rate: 0.0781 },
   { code: "HNL", country: "Honduras", rate: 0.2640 },
   { code: "HRK", country: "Croatia", rate: 0.0650 },
   { code: "HTG", country: "Haiti", rate: 1.3115 },
@@ -75,20 +75,20 @@ export const exchangeRates: CurrencyData[] = [
   { code: "IDR", country: "Indonesia", rate: 169.0910 },
   { code: "ILS", country: "Israel", rate: 0.0315 },
   { code: "IMP", country: "Isle of Man", rate: 0.0075 },
-  { code: "INR", country: "India", rate: 0.9087 },
+  { code: "INR", country: "India", rate: 0.9071 },
   { code: "IQD", country: "Iraq", rate: 13.1162 },
   { code: "IRR", country: "Iran", rate: 421.2500 },
   { code: "ISK", country: "Iceland", rate: 1.2598 },
   { code: "JEP", country: "Jersey", rate: 0.0075 },
   { code: "JMD", country: "Jamaica", rate: 1.5800 },
   { code: "JOD", country: "Jordan", rate: 0.0071 },
-  { code: "JPY", country: "Japan", rate: 1.5820 },
+  { code: "JPY", country: "Japan", rate: 1.5834 },
   { code: "KES", country: "Kenya", rate: 1.2915 },
   { code: "KGS", country: "Kyrgyzstan", rate: 0.8745 },
   { code: "KHR", country: "Cambodia", rate: 40.3085 },
   { code: "KMF", country: "Comoros", rate: 4.2500 },
   { code: "KPW", country: "North Korea", rate: 9.0000 },
-  { code: "KRW", country: "South Korea", rate: 14.7357 },
+  { code: "KRW", country: "South Korea", rate: 14.7358 },
   { code: "KWD", country: "Kuwait", rate: 0.0031 },
   { code: "KYD", country: "Cayman Islands", rate: 0.0083 },
   { code: "KZT", country: "Kazakhstan", rate: 5.1198 },
@@ -111,7 +111,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "MUR", country: "Mauritius", rate: 0.4630 },
   { code: "MVR", country: "Maldives", rate: 0.1546 },
   { code: "MWK", country: "Malawi", rate: 17.3616 },
-  { code: "MXN", country: "Mexico", rate: 0.1763 },
+  { code: "MXN", country: "Mexico", rate: 0.1766 },
   { code: "MYR", country: "Malaysia", rate: 0.0406 },
   { code: "MZN", country: "Mozambique", rate: 0.6390 },
   { code: "NAD", country: "Namibia", rate: 0.1639 },
@@ -135,10 +135,10 @@ export const exchangeRates: CurrencyData[] = [
   { code: "RWF", country: "Rwanda", rate: 14.5983 },
   { code: "SAR", country: "Saudi Arabia", rate: 0.0375 },
   { code: "SBD", country: "Solomon Islands", rate: 0.0812 },
-  { code: "SCR", country: "Seychelles", rate: 0.1526 },
+  { code: "SCR", country: "Seychelles", rate: 0.1531 },
   { code: "SDG", country: "Sudan", rate: 6.0150 },
   { code: "SEK", country: "Sweden", rate: 0.0922 },
-  { code: "SGD", country: "Singapore", rate: 0.0129 },
+  { code: "SGD", country: "Singapore", rate: 0.0128 },
   { code: "SHP", country: "Saint Helena", rate: 0.0075 },
   { code: "SLE", country: "Sierra Leone", rate: 0.2415 },
   { code: "SLL", country: "Sierra Leone (Old Currency)", rate: 209.6950 },
@@ -175,10 +175,10 @@ export const exchangeRates: CurrencyData[] = [
   { code: "XOF", country: "West African CFA Franc (XOF)", rate: 5.6521 },
   { code: "XPF", country: "CFP Franc", rate: 1.0276 },
   { code: "YER", country: "Yemen", rate: 2.3848 },
-  { code: "ZAR", country: "South Africa", rate: 0.1641 },
+  { code: "ZAR", country: "South Africa", rate: 0.1648 },
   { code: "ZMK", country: "Zambia (Old Currency)", rate: 90.0120 },
   { code: "ZMW", country: "Zambia", rate: 0.2010 },
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2026-01-18 08:28:07 UTC";
+export const lastUpdated = "2026-01-18 16:26:03 UTC";
