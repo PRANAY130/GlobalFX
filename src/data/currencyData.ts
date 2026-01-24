@@ -1,4 +1,4 @@
-// Generated on 2026-01-24 08:28:04 UTC
+// Generated on 2026-01-24 16:26:04 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -22,7 +22,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "BBD", country: "Barbados", rate: 0.0200 },
   { code: "BDT", country: "Bangladesh", rate: 1.2138 },
   { code: "BGN", country: "Bulgaria", rate: 0.0168 },
-  { code: "BHD", country: "Bahrain", rate: 0.0038 },
+  { code: "BHD", country: "Bahrain", rate: 0.0037 },
   { code: "BIF", country: "Burundi", rate: 29.3883 },
   { code: "BMD", country: "Bermuda", rate: 0.0100 },
   { code: "BND", country: "Brunei", rate: 0.0127 },
@@ -37,7 +37,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "BZD", country: "Belize", rate: 0.0200 },
   { code: "CAD", country: "Canada", rate: 0.0137 },
   { code: "CDF", country: "Democratic Republic of the Congo", rate: 21.8000 },
-  { code: "CHF", country: "Switzerland", rate: 0.0079 },
+  { code: "CHF", country: "Switzerland", rate: 0.0078 },
   { code: "CLF", country: "Chile", rate: 0.0002 },
   { code: "CLP", country: "Chile", rate: 8.7054 },
   { code: "CNH", country: "China (Offshore Yuan)", rate: 0.0695 },
@@ -58,7 +58,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "EUR", country: "European Union", rate: 0.0085 },
   { code: "FJD", country: "Fiji", rate: 0.0225 },
   { code: "FKP", country: "Falkland Islands", rate: 0.0074 },
-  { code: "GBP", country: "United Kingdom", rate: 0.0074 },
+  { code: "GBP", country: "United Kingdom", rate: 0.0073 },
   { code: "GEL", country: "Georgia", rate: 0.0269 },
   { code: "GGP", country: "Guernsey", rate: 0.0074 },
   { code: "GHS", country: "Ghana", rate: 0.1082 },
@@ -75,7 +75,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "IDR", country: "Indonesia", rate: 167.7745 },
   { code: "ILS", country: "Israel", rate: 0.0313 },
   { code: "IMP", country: "Isle of Man", rate: 0.0074 },
-  { code: "INR", country: "India", rate: 0.9159 },
+  { code: "INR", country: "India", rate: 0.9168 },
   { code: "IQD", country: "Iraq", rate: 13.0000 },
   { code: "IRR", country: "Iran", rate: 421.2500 },
   { code: "ISK", country: "Iceland", rate: 1.2327 },
@@ -88,7 +88,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "KHR", country: "Cambodia", rate: 39.9374 },
   { code: "KMF", country: "Comoros", rate: 4.2000 },
   { code: "KPW", country: "North Korea", rate: 9.0002 },
-  { code: "KRW", country: "South Korea", rate: 14.4631 },
+  { code: "KRW", country: "South Korea", rate: 14.4636 },
   { code: "KWD", country: "Kuwait", rate: 0.0031 },
   { code: "KYD", country: "Cayman Islands", rate: 0.0083 },
   { code: "KZT", country: "Kazakhstan", rate: 4.9953 },
@@ -119,7 +119,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "NIO", country: "Nicaragua", rate: 0.3651 },
   { code: "NOK", country: "Norway", rate: 0.0977 },
   { code: "NPR", country: "Nepal", rate: 1.4574 },
-  { code: "NZD", country: "New Zealand", rate: 0.0170 },
+  { code: "NZD", country: "New Zealand", rate: 0.0168 },
   { code: "OMR", country: "Oman", rate: 0.0038 },
   { code: "PAB", country: "Panama", rate: 0.0099 },
   { code: "PEN", country: "Peru", rate: 0.0333 },
@@ -131,7 +131,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "QAR", country: "Qatar", rate: 0.0362 },
   { code: "RON", country: "Romania", rate: 0.0431 },
   { code: "RSD", country: "Serbia", rate: 0.9925 },
-  { code: "RUB", country: "Russia", rate: 0.7512 },
+  { code: "RUB", country: "Russia", rate: 0.7543 },
   { code: "RWF", country: "Rwanda", rate: 14.4727 },
   { code: "SAR", country: "Saudi Arabia", rate: 0.0375 },
   { code: "SBD", country: "Solomon Islands", rate: 0.0812 },
@@ -181,4 +181,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2026-01-24 08:28:04 UTC";
+export const lastUpdated = "2026-01-24 16:26:04 UTC";
