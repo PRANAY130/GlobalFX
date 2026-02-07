@@ -1,4 +1,4 @@
-// Generated on 2026-02-07 02:08:09 UTC
+// Generated on 2026-02-07 08:34:08 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -69,7 +69,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "GYD", country: "Guyana", rate: 2.0861 },
   { code: "HKD", country: "Hong Kong", rate: 0.0781 },
   { code: "HNL", country: "Honduras", rate: 0.2646 },
-  { code: "HRK", country: "Croatia", rate: 0.0638 },
+  { code: "HRK", country: "Croatia", rate: 0.0637 },
   { code: "HTG", country: "Haiti", rate: 1.3062 },
   { code: "HUF", country: "Hungary", rate: 3.1970 },
   { code: "IDR", country: "Indonesia", rate: 168.5550 },
@@ -181,4 +181,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2026-02-07 02:08:09 UTC";
+export const lastUpdated = "2026-02-07 08:34:08 UTC";
