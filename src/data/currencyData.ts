@@ -1,4 +1,4 @@
-// Generated on 2026-02-28 08:31:08 UTC
+// Generated on 2026-02-28 16:28:04 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -82,13 +82,13 @@ export const exchangeRates: CurrencyData[] = [
   { code: "JEP", country: "Jersey", rate: 0.0074 },
   { code: "JMD", country: "Jamaica", rate: 1.5566 },
   { code: "JOD", country: "Jordan", rate: 0.0071 },
-  { code: "JPY", country: "Japan", rate: 1.5607 },
+  { code: "JPY", country: "Japan", rate: 1.5605 },
   { code: "KES", country: "Kenya", rate: 1.2874 },
   { code: "KGS", country: "Kyrgyzstan", rate: 0.8745 },
   { code: "KHR", country: "Cambodia", rate: 40.0271 },
   { code: "KMF", country: "Comoros", rate: 4.1700 },
   { code: "KPW", country: "North Korea", rate: 9.0002 },
-  { code: "KRW", country: "South Korea", rate: 14.4000 },
+  { code: "KRW", country: "South Korea", rate: 14.3980 },
   { code: "KWD", country: "Kuwait", rate: 0.0031 },
   { code: "KYD", country: "Cayman Islands", rate: 0.0083 },
   { code: "KZT", country: "Kazakhstan", rate: 4.9726 },
@@ -111,7 +111,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "MUR", country: "Mauritius", rate: 0.4637 },
   { code: "MVR", country: "Maldives", rate: 0.1545 },
   { code: "MWK", country: "Malawi", rate: 17.3129 },
-  { code: "MXN", country: "Mexico", rate: 0.1724 },
+  { code: "MXN", country: "Mexico", rate: 0.1723 },
   { code: "MYR", country: "Malaysia", rate: 0.0389 },
   { code: "MZN", country: "Mozambique", rate: 0.6391 },
   { code: "NAD", country: "Namibia", rate: 0.1589 },
@@ -181,4 +181,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2026-02-28 08:31:08 UTC";
+export const lastUpdated = "2026-02-28 16:28:04 UTC";
