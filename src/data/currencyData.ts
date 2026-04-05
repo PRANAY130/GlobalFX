@@ -1,4 +1,4 @@
-// Generated on 2026-04-05 08:46:04 UTC
+// Generated on 2026-04-05 16:38:04 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -75,7 +75,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "IDR", country: "Indonesia", rate: 169.9460 },
   { code: "ILS", country: "Israel", rate: 0.0313 },
   { code: "IMP", country: "Isle of Man", rate: 0.0076 },
-  { code: "INR", country: "India", rate: 0.9298 },
+  { code: "INR", country: "India", rate: 0.9274 },
   { code: "IQD", country: "Iraq", rate: 13.0714 },
   { code: "IRR", country: "Iran", rate: 13191.7500 },
   { code: "ISK", country: "Iceland", rate: 1.2538 },
@@ -88,7 +88,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "KHR", country: "Cambodia", rate: 39.9014 },
   { code: "KMF", country: "Comoros", rate: 4.2700 },
   { code: "KPW", country: "North Korea", rate: 9.0000 },
-  { code: "KRW", country: "South Korea", rate: 15.1023 },
+  { code: "KRW", country: "South Korea", rate: 15.1126 },
   { code: "KWD", country: "Kuwait", rate: 0.0031 },
   { code: "KYD", country: "Cayman Islands", rate: 0.0083 },
   { code: "KZT", country: "Kazakhstan", rate: 4.7281 },
@@ -181,4 +181,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2026-04-05 08:46:04 UTC";
+export const lastUpdated = "2026-04-05 16:38:04 UTC";
