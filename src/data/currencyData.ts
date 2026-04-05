@@ -1,4 +1,4 @@
-// Generated on 2026-04-04 16:37:07 UTC
+// Generated on 2026-04-05 02:39:07 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -47,9 +47,9 @@ export const exchangeRates: CurrencyData[] = [
   { code: "CUC", country: "Cuba (Convertible Peso)", rate: 0.0100 },
   { code: "CUP", country: "Cuba", rate: 0.2650 },
   { code: "CVE", country: "Cape Verde", rate: 0.9600 },
-  { code: "CZK", country: "Czech Republic", rate: 0.2125 },
+  { code: "CZK", country: "Czech Republic", rate: 0.2129 },
   { code: "DJF", country: "Djibouti", rate: 1.7772 },
-  { code: "DKK", country: "Denmark", rate: 0.0648 },
+  { code: "DKK", country: "Denmark", rate: 0.0649 },
   { code: "DOP", country: "Dominican Republic", rate: 0.6085 },
   { code: "DZD", country: "Algeria", rate: 1.3326 },
   { code: "EGP", country: "Egypt", rate: 0.5433 },
@@ -71,24 +71,24 @@ export const exchangeRates: CurrencyData[] = [
   { code: "HNL", country: "Honduras", rate: 0.2650 },
   { code: "HRK", country: "Croatia", rate: 0.0654 },
   { code: "HTG", country: "Haiti", rate: 1.3095 },
-  { code: "HUF", country: "Hungary", rate: 3.3303 },
+  { code: "HUF", country: "Hungary", rate: 3.3393 },
   { code: "IDR", country: "Indonesia", rate: 169.9460 },
   { code: "ILS", country: "Israel", rate: 0.0313 },
   { code: "IMP", country: "Isle of Man", rate: 0.0076 },
-  { code: "INR", country: "India", rate: 0.9298 },
+  { code: "INR", country: "India", rate: 0.9274 },
   { code: "IQD", country: "Iraq", rate: 13.0714 },
   { code: "IRR", country: "Iran", rate: 13191.7500 },
   { code: "ISK", country: "Iceland", rate: 1.2538 },
   { code: "JEP", country: "Jersey", rate: 0.0076 },
   { code: "JMD", country: "Jamaica", rate: 1.5730 },
   { code: "JOD", country: "Jordan", rate: 0.0071 },
-  { code: "JPY", country: "Japan", rate: 1.5958 },
+  { code: "JPY", country: "Japan", rate: 1.5965 },
   { code: "KES", country: "Kenya", rate: 1.2980 },
   { code: "KGS", country: "Kyrgyzstan", rate: 0.8745 },
   { code: "KHR", country: "Cambodia", rate: 39.9014 },
   { code: "KMF", country: "Comoros", rate: 4.2700 },
   { code: "KPW", country: "North Korea", rate: 8.9999 },
-  { code: "KRW", country: "South Korea", rate: 15.1023 },
+  { code: "KRW", country: "South Korea", rate: 15.1126 },
   { code: "KWD", country: "Kuwait", rate: 0.0031 },
   { code: "KYD", country: "Cayman Islands", rate: 0.0083 },
   { code: "KZT", country: "Kazakhstan", rate: 4.7281 },
@@ -117,7 +117,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "NAD", country: "Namibia", rate: 0.1695 },
   { code: "NGN", country: "Nigeria", rate: 13.7813 },
   { code: "NIO", country: "Nicaragua", rate: 0.3671 },
-  { code: "NOK", country: "Norway", rate: 0.0972 },
+  { code: "NOK", country: "Norway", rate: 0.0977 },
   { code: "NPR", country: "Nepal", rate: 1.4870 },
   { code: "NZD", country: "New Zealand", rate: 0.0175 },
   { code: "OMR", country: "Oman", rate: 0.0039 },
@@ -133,11 +133,11 @@ export const exchangeRates: CurrencyData[] = [
   { code: "RSD", country: "Serbia", rate: 1.0190 },
   { code: "RUB", country: "Russia", rate: 0.8033 },
   { code: "RWF", country: "Rwanda", rate: 14.5724 },
-  { code: "SAR", country: "Saudi Arabia", rate: 0.0376 },
+  { code: "SAR", country: "Saudi Arabia", rate: 0.0375 },
   { code: "SBD", country: "Solomon Islands", rate: 0.0804 },
   { code: "SCR", country: "Seychelles", rate: 0.1442 },
   { code: "SDG", country: "Sudan", rate: 6.0100 },
-  { code: "SEK", country: "Sweden", rate: 0.0947 },
+  { code: "SEK", country: "Sweden", rate: 0.0948 },
   { code: "SGD", country: "Singapore", rate: 0.0129 },
   { code: "SHP", country: "Saint Helena", rate: 0.0075 },
   { code: "SLE", country: "Sierra Leone", rate: 0.2465 },
@@ -181,4 +181,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2026-04-04 16:37:07 UTC";
+export const lastUpdated = "2026-04-05 02:39:07 UTC";
