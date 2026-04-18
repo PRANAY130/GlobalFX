@@ -1,4 +1,4 @@
-// Generated on 2026-04-18 08:53:03 UTC
+// Generated on 2026-04-18 16:42:04 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -14,8 +14,8 @@ export const exchangeRates: CurrencyData[] = [
   { code: "AMD", country: "Armenia", rate: 3.7479 },
   { code: "ANG", country: "Netherlands Antilles", rate: 0.0179 },
   { code: "AOA", country: "Angola", rate: 9.1800 },
-  { code: "ARS", country: "Argentina", rate: 13.5855 },
-  { code: "AUD", country: "Australia", rate: 0.0140 },
+  { code: "ARS", country: "Argentina", rate: 13.6881 },
+  { code: "AUD", country: "Australia", rate: 0.0139 },
   { code: "AWG", country: "Aruba", rate: 0.0180 },
   { code: "AZN", country: "Azerbaijan", rate: 0.0170 },
   { code: "BAM", country: "Bosnia and Herzegovina", rate: 0.0166 },
@@ -83,7 +83,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "JMD", country: "Jamaica", rate: 1.5838 },
   { code: "JOD", country: "Jordan", rate: 0.0071 },
   { code: "JPY", country: "Japan", rate: 1.5863 },
-  { code: "KES", country: "Kenya", rate: 1.2902 },
+  { code: "KES", country: "Kenya", rate: 1.2910 },
   { code: "KGS", country: "Kyrgyzstan", rate: 0.8745 },
   { code: "KHR", country: "Cambodia", rate: 40.0696 },
   { code: "KMF", country: "Comoros", rate: 4.1800 },
@@ -119,8 +119,8 @@ export const exchangeRates: CurrencyData[] = [
   { code: "NIO", country: "Nicaragua", rate: 0.3686 },
   { code: "NOK", country: "Norway", rate: 0.0937 },
   { code: "NPR", country: "Nepal", rate: 1.4873 },
-  { code: "NZD", country: "New Zealand", rate: 0.0171 },
-  { code: "OMR", country: "Oman", rate: 0.0039 },
+  { code: "NZD", country: "New Zealand", rate: 0.0170 },
+  { code: "OMR", country: "Oman", rate: 0.0038 },
   { code: "PAB", country: "Panama", rate: 0.0100 },
   { code: "PEN", country: "Peru", rate: 0.0345 },
   { code: "PGK", country: "Papua New Guinea", rate: 0.0434 },
@@ -131,11 +131,11 @@ export const exchangeRates: CurrencyData[] = [
   { code: "QAR", country: "Qatar", rate: 0.0365 },
   { code: "RON", country: "Romania", rate: 0.0433 },
   { code: "RSD", country: "Serbia", rate: 0.9966 },
-  { code: "RUB", country: "Russia", rate: 0.7614 },
+  { code: "RUB", country: "Russia", rate: 0.7623 },
   { code: "RWF", country: "Rwanda", rate: 14.6367 },
   { code: "SAR", country: "Saudi Arabia", rate: 0.0375 },
   { code: "SBD", country: "Solomon Islands", rate: 0.0804 },
-  { code: "SCR", country: "Seychelles", rate: 0.1501 },
+  { code: "SCR", country: "Seychelles", rate: 0.1506 },
   { code: "SDG", country: "Sudan", rate: 6.0100 },
   { code: "SEK", country: "Sweden", rate: 0.0916 },
   { code: "SGD", country: "Singapore", rate: 0.0127 },
@@ -154,7 +154,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "TMT", country: "Turkmenistan", rate: 0.0350 },
   { code: "TND", country: "Tunisia", rate: 0.0291 },
   { code: "TOP", country: "Tonga", rate: 0.0241 },
-  { code: "TRY", country: "Turkey", rate: 0.4484 },
+  { code: "TRY", country: "Turkey", rate: 0.4483 },
   { code: "TTD", country: "Trinidad and Tobago", rate: 0.0680 },
   { code: "TWD", country: "Taiwan", rate: 0.3148 },
   { code: "TZS", country: "Tanzania", rate: 25.9943 },
@@ -181,4 +181,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2026-04-18 08:53:03 UTC";
+export const lastUpdated = "2026-04-18 16:42:04 UTC";
