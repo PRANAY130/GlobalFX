@@ -1,4 +1,4 @@
-// Generated on 2026-04-19 08:56:05 UTC
+// Generated on 2026-04-19 16:42:05 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -72,7 +72,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "HRK", country: "Croatia", rate: 0.0640 },
   { code: "HTG", country: "Haiti", rate: 1.3117 },
   { code: "HUF", country: "Hungary", rate: 3.0731 },
-  { code: "IDR", country: "Indonesia", rate: 171.4000 },
+  { code: "IDR", country: "Indonesia", rate: 171.4035 },
   { code: "ILS", country: "Israel", rate: 0.0296 },
   { code: "IMP", country: "Isle of Man", rate: 0.0074 },
   { code: "INR", country: "India", rate: 0.9260 },
@@ -82,7 +82,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "JEP", country: "Jersey", rate: 0.0074 },
   { code: "JMD", country: "Jamaica", rate: 1.5838 },
   { code: "JOD", country: "Jordan", rate: 0.0071 },
-  { code: "JPY", country: "Japan", rate: 1.5863 },
+  { code: "JPY", country: "Japan", rate: 1.5865 },
   { code: "KES", country: "Kenya", rate: 1.2910 },
   { code: "KGS", country: "Kyrgyzstan", rate: 0.8745 },
   { code: "KHR", country: "Cambodia", rate: 40.0696 },
@@ -181,4 +181,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2026-04-19 08:56:05 UTC";
+export const lastUpdated = "2026-04-19 16:42:05 UTC";
