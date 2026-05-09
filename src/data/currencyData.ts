@@ -1,4 +1,4 @@
-// Generated on 2026-05-09 09:20:07 UTC
+// Generated on 2026-05-09 16:56:07 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -14,7 +14,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "AMD", country: "Armenia", rate: 3.6828 },
   { code: "ANG", country: "Netherlands Antilles", rate: 0.0179 },
   { code: "AOA", country: "Angola", rate: 9.1800 },
-  { code: "ARS", country: "Argentina", rate: 13.9179 },
+  { code: "ARS", country: "Argentina", rate: 13.9866 },
   { code: "AUD", country: "Australia", rate: 0.0138 },
   { code: "AWG", country: "Aruba", rate: 0.0180 },
   { code: "AZN", country: "Azerbaijan", rate: 0.0170 },
@@ -52,7 +52,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "DKK", country: "Denmark", rate: 0.0634 },
   { code: "DOP", country: "Dominican Republic", rate: 0.5931 },
   { code: "DZD", country: "Algeria", rate: 1.3233 },
-  { code: "EGP", country: "Egypt", rate: 0.5258 },
+  { code: "EGP", country: "Egypt", rate: 0.5274 },
   { code: "ERN", country: "Eritrea", rate: 0.1500 },
   { code: "ETB", country: "Ethiopia", rate: 1.5573 },
   { code: "EUR", country: "European Union", rate: 0.0085 },
@@ -88,7 +88,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "KHR", country: "Cambodia", rate: 40.0153 },
   { code: "KMF", country: "Comoros", rate: 4.1800 },
   { code: "KPW", country: "North Korea", rate: 8.9998 },
-  { code: "KRW", country: "South Korea", rate: 14.6181 },
+  { code: "KRW", country: "South Korea", rate: 14.6192 },
   { code: "KWD", country: "Kuwait", rate: 0.0031 },
   { code: "KYD", country: "Cayman Islands", rate: 0.0083 },
   { code: "KZT", country: "Kazakhstan", rate: 4.6095 },
@@ -131,7 +131,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "QAR", country: "Qatar", rate: 0.0365 },
   { code: "RON", country: "Romania", rate: 0.0443 },
   { code: "RSD", country: "Serbia", rate: 0.9950 },
-  { code: "RUB", country: "Russia", rate: 0.7405 },
+  { code: "RUB", country: "Russia", rate: 0.7424 },
   { code: "RWF", country: "Rwanda", rate: 14.6208 },
   { code: "SAR", country: "Saudi Arabia", rate: 0.0377 },
   { code: "SBD", country: "Solomon Islands", rate: 0.0802 },
@@ -181,4 +181,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2026-05-09 09:20:07 UTC";
+export const lastUpdated = "2026-05-09 16:56:07 UTC";
