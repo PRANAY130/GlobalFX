@@ -1,4 +1,4 @@
-// Generated on 2026-05-31 04:00:05 UTC
+// Generated on 2026-05-31 10:16:04 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -104,8 +104,8 @@ export const exchangeRates: CurrencyData[] = [
   { code: "MDL", country: "Moldova", rate: 0.1731 },
   { code: "MGA", country: "Madagascar", rate: 41.9000 },
   { code: "MKD", country: "North Macedonia", rate: 0.5285 },
-  { code: "MMK", country: "Myanmar (Burma)", rate: 21.0004 },
-  { code: "MNT", country: "Mongolia", rate: 35.8037 },
+  { code: "MMK", country: "Myanmar (Burma)", rate: 20.9971 },
+  { code: "MNT", country: "Mongolia", rate: 35.7545 },
   { code: "MOP", country: "Macau", rate: 0.0807 },
   { code: "MRU", country: "Mauritania", rate: 0.4000 },
   { code: "MUR", country: "Mauritius", rate: 0.4737 },
@@ -135,7 +135,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "RWF", country: "Rwanda", rate: 14.6250 },
   { code: "SAR", country: "Saudi Arabia", rate: 0.0377 },
   { code: "SBD", country: "Solomon Islands", rate: 0.0803 },
-  { code: "SCR", country: "Seychelles", rate: 0.1356 },
+  { code: "SCR", country: "Seychelles", rate: 0.1354 },
   { code: "SDG", country: "Sudan", rate: 6.0050 },
   { code: "SEK", country: "Sweden", rate: 0.0926 },
   { code: "SGD", country: "Singapore", rate: 0.0128 },
@@ -164,7 +164,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "UZS", country: "Uzbekistan", rate: 120.2250 },
   { code: "VES", country: "Unknown Country", rate: 5.4869 },
   { code: "VND", country: "Vietnam", rate: 263.1250 },
-  { code: "VUV", country: "Vanuatu", rate: 1.1806 },
+  { code: "VUV", country: "Vanuatu", rate: 1.1727 },
   { code: "WST", country: "Samoa", rate: 0.0272 },
   { code: "XAF", country: "Unknown Country", rate: 5.6345 },
   { code: "XAG", country: "Unknown Country", rate: 0.0001 },
@@ -181,4 +181,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2026-05-31 04:00:05 UTC";
+export const lastUpdated = "2026-05-31 10:16:04 UTC";
