@@ -1,4 +1,4 @@
-// Generated on 2026-07-05 10:14:05 UTC
+// Generated on 2026-07-05 17:12:08 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -82,13 +82,13 @@ export const exchangeRates: CurrencyData[] = [
   { code: "JEP", country: "Jersey", rate: 0.0075 },
   { code: "JMD", country: "Jamaica", rate: 1.5835 },
   { code: "JOD", country: "Jordan", rate: 0.0071 },
-  { code: "JPY", country: "Japan", rate: 1.6137 },
+  { code: "JPY", country: "Japan", rate: 1.6136 },
   { code: "KES", country: "Kenya", rate: 1.2934 },
   { code: "KGS", country: "Kyrgyzstan", rate: 0.8745 },
   { code: "KHR", country: "Cambodia", rate: 40.0577 },
   { code: "KMF", country: "Comoros", rate: 4.3100 },
   { code: "KPW", country: "North Korea", rate: 9.0000 },
-  { code: "KRW", country: "South Korea", rate: 15.2878 },
+  { code: "KRW", country: "South Korea", rate: 15.2877 },
   { code: "KWD", country: "Kuwait", rate: 0.0031 },
   { code: "KYD", country: "Cayman Islands", rate: 0.0083 },
   { code: "KZT", country: "Kazakhstan", rate: 4.7305 },
@@ -149,7 +149,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "SVC", country: "El Salvador", rate: 0.0875 },
   { code: "SYP", country: "Syria", rate: 1.1053 },
   { code: "SZL", country: "Swaziland", rate: 0.1622 },
-  { code: "THB", country: "Thailand", rate: 0.3333 },
+  { code: "THB", country: "Thailand", rate: 0.3332 },
   { code: "TJS", country: "Tajikistan", rate: 0.0927 },
   { code: "TMT", country: "Turkmenistan", rate: 0.0351 },
   { code: "TND", country: "Tunisia", rate: 0.0295 },
@@ -181,4 +181,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2026-07-05 10:14:05 UTC";
+export const lastUpdated = "2026-07-05 17:12:08 UTC";
