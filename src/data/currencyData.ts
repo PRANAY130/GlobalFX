@@ -1,4 +1,4 @@
-// Generated on 2026-07-11 16:58:05 UTC
+// Generated on 2026-07-12 02:52:05 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -14,7 +14,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "AMD", country: "Armenia", rate: 3.6659 },
   { code: "ANG", country: "Netherlands Antilles", rate: 0.0179 },
   { code: "AOA", country: "Angola", rate: 9.1700 },
-  { code: "ARS", country: "Argentina", rate: 14.8905 },
+  { code: "ARS", country: "Argentina", rate: 14.8796 },
   { code: "AUD", country: "Australia", rate: 0.0144 },
   { code: "AWG", country: "Aruba", rate: 0.0180 },
   { code: "AZN", country: "Azerbaijan", rate: 0.0170 },
@@ -52,7 +52,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "DKK", country: "Denmark", rate: 0.0655 },
   { code: "DOP", country: "Dominican Republic", rate: 0.5878 },
   { code: "DZD", country: "Algeria", rate: 1.3326 },
-  { code: "EGP", country: "Egypt", rate: 0.4963 },
+  { code: "EGP", country: "Egypt", rate: 0.4966 },
   { code: "ERN", country: "Eritrea", rate: 0.1500 },
   { code: "ETB", country: "Ethiopia", rate: 1.6058 },
   { code: "EUR", country: "European Union", rate: 0.0088 },
@@ -88,7 +88,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "KHR", country: "Cambodia", rate: 40.3537 },
   { code: "KMF", country: "Comoros", rate: 4.3200 },
   { code: "KPW", country: "North Korea", rate: 9.0000 },
-  { code: "KRW", country: "South Korea", rate: 14.9907 },
+  { code: "KRW", country: "South Korea", rate: 14.9915 },
   { code: "KWD", country: "Kuwait", rate: 0.0031 },
   { code: "KYD", country: "Cayman Islands", rate: 0.0083 },
   { code: "KZT", country: "Kazakhstan", rate: 4.7192 },
@@ -181,4 +181,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2026-07-11 16:58:05 UTC";
+export const lastUpdated = "2026-07-12 02:52:05 UTC";
