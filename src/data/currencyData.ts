@@ -1,4 +1,4 @@
-// Generated on 2026-08-02 09:57:04 UTC
+// Generated on 2026-08-02 17:00:06 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -13,7 +13,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ALL", country: "Albania", rate: 0.8100 },
   { code: "AMD", country: "Armenia", rate: 3.6467 },
   { code: "AOA", country: "Angola", rate: 9.1800 },
-  { code: "ARS", country: "Argentina", rate: 14.8550 },
+  { code: "ARS", country: "Argentina", rate: 14.8551 },
   { code: "AUD", country: "Australia", rate: 0.0143 },
   { code: "AWG", country: "Aruba", rate: 0.0180 },
   { code: "AZN", country: "Azerbaijan", rate: 0.0170 },
@@ -37,7 +37,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "CDF", country: "Democratic Republic of the Congo", rate: 22.7500 },
   { code: "CHF", country: "Switzerland", rate: 0.0081 },
   { code: "CLF", country: "Chile", rate: 0.0002 },
-  { code: "CLP", country: "Chile", rate: 9.3040 },
+  { code: "CLP", country: "Chile", rate: 9.3044 },
   { code: "CNH", country: "China (Offshore Yuan)", rate: 0.0675 },
   { code: "CNY", country: "China", rate: 0.0675 },
   { code: "COP", country: "Colombia", rate: 31.0120 },
@@ -57,11 +57,11 @@ export const exchangeRates: CurrencyData[] = [
   { code: "FJD", country: "Fiji", rate: 0.0221 },
   { code: "FKP", country: "Falkland Islands", rate: 0.0074 },
   { code: "GBP", country: "United Kingdom", rate: 0.0074 },
-  { code: "GEL", country: "Georgia", rate: 0.0262 },
+  { code: "GEL", country: "Georgia", rate: 0.0261 },
   { code: "GGP", country: "Guernsey", rate: 0.0074 },
   { code: "GHS", country: "Ghana", rate: 0.1166 },
   { code: "GIP", country: "Gibraltar", rate: 0.0074 },
-  { code: "GMD", country: "Gambia", rate: 0.7350 },
+  { code: "GMD", country: "Gambia", rate: 0.7351 },
   { code: "GNF", country: "Guinea", rate: 87.5222 },
   { code: "GTQ", country: "Guatemala", rate: 0.0761 },
   { code: "GYD", country: "Guyana", rate: 2.0856 },
@@ -80,7 +80,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "JEP", country: "Jersey", rate: 0.0074 },
   { code: "JMD", country: "Jamaica", rate: 1.5784 },
   { code: "JOD", country: "Jordan", rate: 0.0071 },
-  { code: "JPY", country: "Japan", rate: 1.5743 },
+  { code: "JPY", country: "Japan", rate: 1.5742 },
   { code: "KES", country: "Kenya", rate: 1.2896 },
   { code: "KGS", country: "Kyrgyzstan", rate: 0.8745 },
   { code: "KHR", country: "Cambodia", rate: 40.3415 },
@@ -143,7 +143,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "STN", country: "Unknown Country", rate: 0.2124 },
   { code: "SVC", country: "El Salvador", rate: 0.0872 },
   { code: "SZL", country: "Swaziland", rate: 0.1649 },
-  { code: "THB", country: "Thailand", rate: 0.3353 },
+  { code: "THB", country: "Thailand", rate: 0.3352 },
   { code: "TJS", country: "Tajikistan", rate: 0.0920 },
   { code: "TMT", country: "Turkmenistan", rate: 0.0351 },
   { code: "TND", country: "Tunisia", rate: 0.0293 },
@@ -174,4 +174,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2026-08-02 09:57:04 UTC";
+export const lastUpdated = "2026-08-02 17:00:06 UTC";
