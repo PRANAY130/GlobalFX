@@ -1,4 +1,4 @@
-// Generated on 2026-08-08 08:41:05 UTC
+// Generated on 2026-08-08 16:33:05 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -13,7 +13,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ALL", country: "Albania", rate: 0.8063 },
   { code: "AMD", country: "Armenia", rate: 3.6509 },
   { code: "AOA", country: "Angola", rate: 9.1700 },
-  { code: "ARS", country: "Argentina", rate: 14.9900 },
+  { code: "ARS", country: "Argentina", rate: 14.9194 },
   { code: "AUD", country: "Australia", rate: 0.0142 },
   { code: "AWG", country: "Aruba", rate: 0.0180 },
   { code: "AZN", country: "Azerbaijan", rate: 0.0170 },
@@ -128,7 +128,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "QAR", country: "Qatar", rate: 0.0364 },
   { code: "RON", country: "Romania", rate: 0.0454 },
   { code: "RSD", country: "Serbia", rate: 1.0149 },
-  { code: "RUB", country: "Russia", rate: 0.8160 },
+  { code: "RUB", country: "Russia", rate: 0.8189 },
   { code: "RWF", country: "Rwanda", rate: 14.6607 },
   { code: "SAR", country: "Saudi Arabia", rate: 0.0376 },
   { code: "SBD", country: "Solomon Islands", rate: 0.0807 },
@@ -174,4 +174,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2026-08-08 08:41:05 UTC";
+export const lastUpdated = "2026-08-08 16:33:05 UTC";
