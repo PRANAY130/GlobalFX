@@ -1,4 +1,4 @@
-// Generated on 2026-08-09 01:48:04 UTC
+// Generated on 2026-08-09 08:43:04 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -50,7 +50,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "DKK", country: "Denmark", rate: 0.0647 },
   { code: "DOP", country: "Dominican Republic", rate: 0.5820 },
   { code: "DZD", country: "Algeria", rate: 1.3231 },
-  { code: "EGP", country: "Egypt", rate: 0.4956 },
+  { code: "EGP", country: "Egypt", rate: 0.4963 },
   { code: "ERN", country: "Eritrea", rate: 0.1500 },
   { code: "ETB", country: "Ethiopia", rate: 1.6092 },
   { code: "EUR", country: "European Union", rate: 0.0086 },
@@ -85,7 +85,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "KGS", country: "Kyrgyzstan", rate: 0.8745 },
   { code: "KHR", country: "Cambodia", rate: 40.4965 },
   { code: "KMF", country: "Comoros", rate: 4.2600 },
-  { code: "KRW", country: "South Korea", rate: 14.0789 },
+  { code: "KRW", country: "South Korea", rate: 14.0786 },
   { code: "KWD", country: "Kuwait", rate: 0.0031 },
   { code: "KYD", country: "Cayman Islands", rate: 0.0083 },
   { code: "KZT", country: "Kazakhstan", rate: 4.6728 },
@@ -101,8 +101,8 @@ export const exchangeRates: CurrencyData[] = [
   { code: "MDL", country: "Moldova", rate: 0.1734 },
   { code: "MGA", country: "Madagascar", rate: 42.5464 },
   { code: "MKD", country: "North Macedonia", rate: 0.5322 },
-  { code: "MMK", country: "Myanmar (Burma)", rate: 20.9975 },
-  { code: "MNT", country: "Mongolia", rate: 35.9735 },
+  { code: "MMK", country: "Myanmar (Burma)", rate: 20.9955 },
+  { code: "MNT", country: "Mongolia", rate: 35.9585 },
   { code: "MOP", country: "Macau", rate: 0.0806 },
   { code: "MRU", country: "Mauritania", rate: 0.4008 },
   { code: "MUR", country: "Mauritius", rate: 0.4707 },
@@ -157,7 +157,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "UZS", country: "Uzbekistan", rate: 119.2406 },
   { code: "VES", country: "Unknown Country", rate: 7.5576 },
   { code: "VND", country: "Vietnam", rate: 262.0450 },
-  { code: "VUV", country: "Vanuatu", rate: 1.1941 },
+  { code: "VUV", country: "Vanuatu", rate: 1.1856 },
   { code: "WST", country: "Samoa", rate: 0.0273 },
   { code: "XAF", country: "Unknown Country", rate: 5.6736 },
   { code: "XAG", country: "Unknown Country", rate: 0.0002 },
@@ -174,4 +174,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2026-08-09 01:48:04 UTC";
+export const lastUpdated = "2026-08-09 08:43:04 UTC";
