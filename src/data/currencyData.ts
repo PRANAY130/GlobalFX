@@ -1,4 +1,4 @@
-// Generated on 2026-08-08 16:33:05 UTC
+// Generated on 2026-08-09 01:48:04 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -37,7 +37,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "CDF", country: "Democratic Republic of the Congo", rate: 22.6250 },
   { code: "CHF", country: "Switzerland", rate: 0.0081 },
   { code: "CLF", country: "Chile", rate: 0.0002 },
-  { code: "CLP", country: "Chile", rate: 9.1356 },
+  { code: "CLP", country: "Chile", rate: 9.1332 },
   { code: "CNH", country: "China (Offshore Yuan)", rate: 0.0674 },
   { code: "CNY", country: "China", rate: 0.0675 },
   { code: "COP", country: "Colombia", rate: 31.4284 },
@@ -128,7 +128,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "QAR", country: "Qatar", rate: 0.0364 },
   { code: "RON", country: "Romania", rate: 0.0454 },
   { code: "RSD", country: "Serbia", rate: 1.0149 },
-  { code: "RUB", country: "Russia", rate: 0.8189 },
+  { code: "RUB", country: "Russia", rate: 0.8160 },
   { code: "RWF", country: "Rwanda", rate: 14.6607 },
   { code: "SAR", country: "Saudi Arabia", rate: 0.0376 },
   { code: "SBD", country: "Solomon Islands", rate: 0.0807 },
@@ -174,4 +174,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2026-08-08 16:33:05 UTC";
+export const lastUpdated = "2026-08-09 01:48:04 UTC";
