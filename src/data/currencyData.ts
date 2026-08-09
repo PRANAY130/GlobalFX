@@ -1,4 +1,4 @@
-// Generated on 2026-08-09 08:43:04 UTC
+// Generated on 2026-08-09 16:35:07 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -50,7 +50,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "DKK", country: "Denmark", rate: 0.0647 },
   { code: "DOP", country: "Dominican Republic", rate: 0.5820 },
   { code: "DZD", country: "Algeria", rate: 1.3231 },
-  { code: "EGP", country: "Egypt", rate: 0.4963 },
+  { code: "EGP", country: "Egypt", rate: 0.4956 },
   { code: "ERN", country: "Eritrea", rate: 0.1500 },
   { code: "ETB", country: "Ethiopia", rate: 1.6092 },
   { code: "EUR", country: "European Union", rate: 0.0086 },
@@ -108,7 +108,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "MUR", country: "Mauritius", rate: 0.4707 },
   { code: "MVR", country: "Maldives", rate: 0.1545 },
   { code: "MWK", country: "Malawi", rate: 17.2884 },
-  { code: "MXN", country: "Mexico", rate: 0.1714 },
+  { code: "MXN", country: "Mexico", rate: 0.1738 },
   { code: "MYR", country: "Malaysia", rate: 0.0409 },
   { code: "MZN", country: "Mozambique", rate: 0.6391 },
   { code: "NAD", country: "Namibia", rate: 0.1620 },
@@ -130,12 +130,12 @@ export const exchangeRates: CurrencyData[] = [
   { code: "RSD", country: "Serbia", rate: 1.0149 },
   { code: "RUB", country: "Russia", rate: 0.8160 },
   { code: "RWF", country: "Rwanda", rate: 14.6607 },
-  { code: "SAR", country: "Saudi Arabia", rate: 0.0376 },
+  { code: "SAR", country: "Saudi Arabia", rate: 0.0374 },
   { code: "SBD", country: "Solomon Islands", rate: 0.0807 },
   { code: "SCR", country: "Seychelles", rate: 0.1445 },
   { code: "SDG", country: "Sudan", rate: 6.0050 },
   { code: "SEK", country: "Sweden", rate: 0.0948 },
-  { code: "SGD", country: "Singapore", rate: 0.0128 },
+  { code: "SGD", country: "Singapore", rate: 0.0127 },
   { code: "SLE", country: "Sierra Leone", rate: 0.2460 },
   { code: "SOS", country: "Somalia", rate: 5.6982 },
   { code: "SRD", country: "Suriname", rate: 0.3787 },
@@ -174,4 +174,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2026-08-09 08:43:04 UTC";
+export const lastUpdated = "2026-08-09 16:35:07 UTC";
