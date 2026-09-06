@@ -1,4 +1,4 @@
-// Generated on 2026-09-06 11:59:05 UTC
+// Generated on 2026-09-06 18:04:08 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -47,7 +47,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "CUC", country: "Cuba (Convertible Peso)", rate: 0.0100 },
   { code: "CUP", country: "Cuba", rate: 0.2650 },
   { code: "CVE", country: "Cape Verde", rate: 0.9488 },
-  { code: "CZK", country: "Czech Republic", rate: 0.2084 },
+  { code: "CZK", country: "Czech Republic", rate: 0.2083 },
   { code: "DJF", country: "Djibouti", rate: 1.7807 },
   { code: "DKK", country: "Denmark", rate: 0.0644 },
   { code: "DOP", country: "Dominican Republic", rate: 0.5919 },
@@ -59,7 +59,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "FJD", country: "Fiji", rate: 0.0219 },
   { code: "FKP", country: "Falkland Islands", rate: 0.0074 },
   { code: "GBP", country: "United Kingdom", rate: 0.0074 },
-  { code: "GEL", country: "Georgia", rate: 0.0261 },
+  { code: "GEL", country: "Georgia", rate: 0.0260 },
   { code: "GGP", country: "Guernsey", rate: 0.0074 },
   { code: "GHS", country: "Ghana", rate: 0.1137 },
   { code: "GIP", country: "Gibraltar", rate: 0.0074 },
@@ -136,7 +136,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "SAR", country: "Saudi Arabia", rate: 0.0375 },
   { code: "SBD", country: "Solomon Islands", rate: 0.0800 },
   { code: "SCR", country: "Seychelles", rate: 0.1378 },
-  { code: "SDG", country: "Sudan", rate: 6.0150 },
+  { code: "SDG", country: "Sudan", rate: 6.0151 },
   { code: "SEK", country: "Sweden", rate: 0.0957 },
   { code: "SGD", country: "Singapore", rate: 0.0127 },
   { code: "SHP", country: "Saint Helena", rate: 0.0074 },
@@ -181,4 +181,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2026-09-06 11:59:05 UTC";
+export const lastUpdated = "2026-09-06 18:04:08 UTC";
