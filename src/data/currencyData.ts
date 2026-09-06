@@ -1,4 +1,4 @@
-// Generated on 2026-09-06 03:24:05 UTC
+// Generated on 2026-09-06 11:59:05 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -104,8 +104,8 @@ export const exchangeRates: CurrencyData[] = [
   { code: "MDL", country: "Moldova", rate: 0.1722 },
   { code: "MGA", country: "Madagascar", rate: 42.9032 },
   { code: "MKD", country: "North Macedonia", rate: 0.5294 },
-  { code: "MMK", country: "Myanmar (Burma)", rate: 20.9963 },
-  { code: "MNT", country: "Mongolia", rate: 35.9909 },
+  { code: "MMK", country: "Myanmar (Burma)", rate: 21.0007 },
+  { code: "MNT", country: "Mongolia", rate: 35.9749 },
   { code: "MOP", country: "Macau", rate: 0.0808 },
   { code: "MRU", country: "Mauritania", rate: 0.4023 },
   { code: "MUR", country: "Mauritius", rate: 0.4683 },
@@ -164,7 +164,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "UZS", country: "Uzbekistan", rate: 117.9452 },
   { code: "VES", country: "Unknown Country", rate: 8.0638 },
   { code: "VND", country: "Vietnam", rate: 260.6000 },
-  { code: "VUV", country: "Vanuatu", rate: 1.1807 },
+  { code: "VUV", country: "Vanuatu", rate: 1.1699 },
   { code: "WST", country: "Samoa", rate: 0.0272 },
   { code: "XAF", country: "Unknown Country", rate: 5.6443 },
   { code: "XAG", country: "Unknown Country", rate: 0.0002 },
@@ -181,4 +181,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2026-09-06 03:24:05 UTC";
+export const lastUpdated = "2026-09-06 11:59:05 UTC";
