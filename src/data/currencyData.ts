@@ -1,4 +1,4 @@
-// Generated on 2026-09-13 13:09:04 UTC
+// Generated on 2026-09-13 18:34:05 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -9,7 +9,7 @@ export interface CurrencyData {
 
 export const exchangeRates: CurrencyData[] = [
   { code: "AED", country: "United Arab Emirates", rate: 0.0367 },
-  { code: "AFN", country: "Afghanistan", rate: 0.6450 },
+  { code: "AFN", country: "Afghanistan", rate: 0.6449 },
   { code: "ALL", country: "Albania", rate: 0.7917 },
   { code: "AMD", country: "Armenia", rate: 3.6249 },
   { code: "ANG", country: "Netherlands Antilles", rate: 0.0179 },
@@ -17,11 +17,11 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ARS", country: "Argentina", rate: 15.0875 },
   { code: "AUD", country: "Australia", rate: 0.0139 },
   { code: "AWG", country: "Aruba", rate: 0.0180 },
-  { code: "AZN", country: "Azerbaijan", rate: 0.0170 },
+  { code: "AZN", country: "Azerbaijan", rate: 0.0169 },
   { code: "BAM", country: "Bosnia and Herzegovina", rate: 0.0168 },
   { code: "BBD", country: "Barbados", rate: 0.0201 },
   { code: "BDT", country: "Bangladesh", rate: 1.2323 },
-  { code: "BGN", country: "Bulgaria", rate: 0.0169 },
+  { code: "BGN", country: "Bulgaria", rate: 0.0168 },
   { code: "BHD", country: "Bahrain", rate: 0.0038 },
   { code: "BIF", country: "Burundi", rate: 29.7885 },
   { code: "BMD", country: "Bermuda", rate: 0.0100 },
@@ -52,7 +52,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "DKK", country: "Denmark", rate: 0.0644 },
   { code: "DOP", country: "Dominican Republic", rate: 0.5878 },
   { code: "DZD", country: "Algeria", rate: 1.3332 },
-  { code: "EGP", country: "Egypt", rate: 0.5138 },
+  { code: "EGP", country: "Egypt", rate: 0.5129 },
   { code: "ERN", country: "Eritrea", rate: 0.1500 },
   { code: "ETB", country: "Ethiopia", rate: 1.6119 },
   { code: "EUR", country: "European Union", rate: 0.0086 },
@@ -63,7 +63,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "GGP", country: "Guernsey", rate: 0.0074 },
   { code: "GHS", country: "Ghana", rate: 0.1144 },
   { code: "GIP", country: "Gibraltar", rate: 0.0074 },
-  { code: "GMD", country: "Gambia", rate: 0.7350 },
+  { code: "GMD", country: "Gambia", rate: 0.7351 },
   { code: "GNF", country: "Guinea", rate: 87.7977 },
   { code: "GTQ", country: "Guatemala", rate: 0.0762 },
   { code: "GYD", country: "Guyana", rate: 2.0892 },
@@ -142,7 +142,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "SGD", country: "Singapore", rate: 0.0128 },
   { code: "SHP", country: "Saint Helena", rate: 0.0074 },
   { code: "SLE", country: "Sierra Leone", rate: 0.2455 },
-  { code: "SLL", country: "Sierra Leone (Old Currency)", rate: 209.6950 },
+  { code: "SLL", country: "Sierra Leone (Old Currency)", rate: 209.6949 },
   { code: "SOS", country: "Somalia", rate: 5.7070 },
   { code: "SRD", country: "Suriname", rate: 0.3792 },
   { code: "SSP", country: "Unknown Country", rate: 56.4925 },
@@ -183,4 +183,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2026-09-13 13:09:04 UTC";
+export const lastUpdated = "2026-09-13 18:34:05 UTC";
