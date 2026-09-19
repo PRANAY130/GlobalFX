@@ -1,4 +1,4 @@
-// Generated on 2026-09-19 12:19:04 UTC
+// Generated on 2026-09-19 18:27:08 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -51,8 +51,8 @@ export const exchangeRates: CurrencyData[] = [
   { code: "DJF", country: "Djibouti", rate: 1.7785 },
   { code: "DKK", country: "Denmark", rate: 0.0651 },
   { code: "DOP", country: "Dominican Republic", rate: 0.5895 },
-  { code: "DZD", country: "Algeria", rate: 1.3406 },
-  { code: "EGP", country: "Egypt", rate: 0.5225 },
+  { code: "DZD", country: "Algeria", rate: 1.3376 },
+  { code: "EGP", country: "Egypt", rate: 0.5205 },
   { code: "ERN", country: "Eritrea", rate: 0.1500 },
   { code: "ETB", country: "Ethiopia", rate: 1.6313 },
   { code: "EUR", country: "European Union", rate: 0.0087 },
@@ -88,7 +88,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "KHR", country: "Cambodia", rate: 40.4753 },
   { code: "KMF", country: "Comoros", rate: 4.2800 },
   { code: "KPW", country: "North Korea", rate: 9.0000 },
-  { code: "KRW", country: "South Korea", rate: 13.8619 },
+  { code: "KRW", country: "South Korea", rate: 13.8604 },
   { code: "KWD", country: "Kuwait", rate: 0.0031 },
   { code: "KYD", country: "Cayman Islands", rate: 0.0083 },
   { code: "KZT", country: "Kazakhstan", rate: 4.4652 },
@@ -121,7 +121,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "NOK", country: "Norway", rate: 0.0941 },
   { code: "NPR", country: "Nepal", rate: 1.5312 },
   { code: "NZD", country: "New Zealand", rate: 0.0174 },
-  { code: "OMR", country: "Oman", rate: 0.0039 },
+  { code: "OMR", country: "Oman", rate: 0.0038 },
   { code: "PAB", country: "Panama", rate: 0.0100 },
   { code: "PEN", country: "Peru", rate: 0.0337 },
   { code: "PGK", country: "Papua New Guinea", rate: 0.0445 },
@@ -136,7 +136,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "RWF", country: "Rwanda", rate: 14.6712 },
   { code: "SAR", country: "Saudi Arabia", rate: 0.0376 },
   { code: "SBD", country: "Solomon Islands", rate: 0.0800 },
-  { code: "SCR", country: "Seychelles", rate: 0.1403 },
+  { code: "SCR", country: "Seychelles", rate: 0.1378 },
   { code: "SDG", country: "Sudan", rate: 6.0150 },
   { code: "SEK", country: "Sweden", rate: 0.0983 },
   { code: "SGD", country: "Singapore", rate: 0.0128 },
@@ -183,4 +183,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2026-09-19 12:19:04 UTC";
+export const lastUpdated = "2026-09-19 18:27:08 UTC";
