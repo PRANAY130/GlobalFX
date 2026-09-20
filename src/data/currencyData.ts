@@ -1,4 +1,4 @@
-// Generated on 2026-09-20 12:54:08 UTC
+// Generated on 2026-09-20 18:31:04 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -14,7 +14,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "AMD", country: "Armenia", rate: 3.6254 },
   { code: "ANG", country: "Netherlands Antilles", rate: 0.0179 },
   { code: "AOA", country: "Angola", rate: 9.1800 },
-  { code: "ARS", country: "Argentina", rate: 15.1450 },
+  { code: "ARS", country: "Argentina", rate: 15.1449 },
   { code: "AUD", country: "Australia", rate: 0.0140 },
   { code: "AWG", country: "Aruba", rate: 0.0180 },
   { code: "AZN", country: "Azerbaijan", rate: 0.0170 },
@@ -137,7 +137,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "SAR", country: "Saudi Arabia", rate: 0.0376 },
   { code: "SBD", country: "Solomon Islands", rate: 0.0800 },
   { code: "SCR", country: "Seychelles", rate: 0.1403 },
-  { code: "SDG", country: "Sudan", rate: 6.0150 },
+  { code: "SDG", country: "Sudan", rate: 6.0151 },
   { code: "SEK", country: "Sweden", rate: 0.0983 },
   { code: "SGD", country: "Singapore", rate: 0.0128 },
   { code: "SHP", country: "Saint Helena", rate: 0.0075 },
@@ -168,13 +168,13 @@ export const exchangeRates: CurrencyData[] = [
   { code: "VND", country: "Vietnam", rate: 260.2200 },
   { code: "VUV", country: "Vanuatu", rate: 1.1796 },
   { code: "WST", country: "Samoa", rate: 0.0275 },
-  { code: "XAF", country: "Unknown Country", rate: 5.7108 },
+  { code: "XAF", country: "Unknown Country", rate: 5.7107 },
   { code: "XAG", country: "Unknown Country", rate: 0.0002 },
   { code: "XAU", country: "Unknown Country", rate: 0.0000 },
   { code: "XCD", country: "Unknown Country", rate: 0.0270 },
   { code: "XCG", country: "Unknown Country", rate: 0.0180 },
   { code: "XDR", country: "Unknown Country", rate: 0.0071 },
-  { code: "XOF", country: "West African CFA Franc (XOF)", rate: 5.7108 },
+  { code: "XOF", country: "West African CFA Franc (XOF)", rate: 5.7107 },
   { code: "XPF", country: "CFP Franc", rate: 1.0381 },
   { code: "YER", country: "Yemen", rate: 2.3655 },
   { code: "ZAR", country: "South Africa", rate: 0.1627 },
@@ -183,4 +183,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2026-09-20 12:54:08 UTC";
+export const lastUpdated = "2026-09-20 18:31:04 UTC";
