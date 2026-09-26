@@ -1,4 +1,4 @@
-// Generated on 2026-09-26 12:42:08 UTC
+// Generated on 2026-09-26 19:04:11 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -58,7 +58,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "EUR", country: "European Union", rate: 0.0088 },
   { code: "FJD", country: "Fiji", rate: 0.0225 },
   { code: "FKP", country: "Falkland Islands", rate: 0.0075 },
-  { code: "GBP", country: "United Kingdom", rate: 0.0075 },
+  { code: "GBP", country: "United Kingdom", rate: 0.0076 },
   { code: "GEL", country: "Georgia", rate: 0.0262 },
   { code: "GGP", country: "Guernsey", rate: 0.0075 },
   { code: "GHS", country: "Ghana", rate: 0.1162 },
@@ -183,4 +183,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2026-09-26 12:42:08 UTC";
+export const lastUpdated = "2026-09-26 19:04:11 UTC";
