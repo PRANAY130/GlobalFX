@@ -1,4 +1,4 @@
-// Generated on 2026-09-26 19:04:11 UTC
+// Generated on 2026-09-27 04:10:06 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -58,7 +58,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "EUR", country: "European Union", rate: 0.0088 },
   { code: "FJD", country: "Fiji", rate: 0.0225 },
   { code: "FKP", country: "Falkland Islands", rate: 0.0075 },
-  { code: "GBP", country: "United Kingdom", rate: 0.0076 },
+  { code: "GBP", country: "United Kingdom", rate: 0.0075 },
   { code: "GEL", country: "Georgia", rate: 0.0262 },
   { code: "GGP", country: "Guernsey", rate: 0.0075 },
   { code: "GHS", country: "Ghana", rate: 0.1162 },
@@ -104,8 +104,8 @@ export const exchangeRates: CurrencyData[] = [
   { code: "MDL", country: "Moldova", rate: 0.1776 },
   { code: "MGA", country: "Madagascar", rate: 44.1655 },
   { code: "MKD", country: "North Macedonia", rate: 0.5404 },
-  { code: "MMK", country: "Myanmar (Burma)", rate: 20.9980 },
-  { code: "MNT", country: "Mongolia", rate: 35.9819 },
+  { code: "MMK", country: "Myanmar (Burma)", rate: 20.9936 },
+  { code: "MNT", country: "Mongolia", rate: 35.9616 },
   { code: "MOP", country: "Macau", rate: 0.0808 },
   { code: "MRU", country: "Mauritania", rate: 0.4024 },
   { code: "MUR", country: "Mauritius", rate: 0.4753 },
@@ -166,7 +166,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "UZS", country: "Uzbekistan", rate: 118.3921 },
   { code: "VES", country: "Unknown Country", rate: 8.5243 },
   { code: "VND", country: "Vietnam", rate: 259.7600 },
-  { code: "VUV", country: "Vanuatu", rate: 1.1849 },
+  { code: "VUV", country: "Vanuatu", rate: 1.1839 },
   { code: "WST", country: "Samoa", rate: 0.0275 },
   { code: "XAF", country: "Unknown Country", rate: 5.7587 },
   { code: "XAG", country: "Unknown Country", rate: 0.0002 },
@@ -183,4 +183,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2026-09-26 19:04:11 UTC";
+export const lastUpdated = "2026-09-27 04:10:06 UTC";
