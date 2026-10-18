@@ -1,4 +1,4 @@
-// Generated on 2026-10-18 03:28:05 UTC
+// Generated on 2026-10-18 12:28:05 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -104,8 +104,8 @@ export const exchangeRates: CurrencyData[] = [
   { code: "MDL", country: "Moldova", rate: 0.1797 },
   { code: "MGA", country: "Madagascar", rate: 45.0741 },
   { code: "MKD", country: "North Macedonia", rate: 0.5484 },
-  { code: "MMK", country: "Myanmar (Burma)", rate: 20.9986 },
-  { code: "MNT", country: "Mongolia", rate: 35.9726 },
+  { code: "MMK", country: "Myanmar (Burma)", rate: 21.0007 },
+  { code: "MNT", country: "Mongolia", rate: 35.9649 },
   { code: "MOP", country: "Macau", rate: 0.0810 },
   { code: "MRU", country: "Mauritania", rate: 0.4004 },
   { code: "MUR", country: "Mauritius", rate: 0.4723 },
@@ -145,7 +145,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "SLL", country: "Sierra Leone (Old Currency)", rate: 209.6950 },
   { code: "SOS", country: "Somalia", rate: 5.7234 },
   { code: "SRD", country: "Suriname", rate: 0.3779 },
-  { code: "SSP", country: "Unknown Country", rate: 57.5811 },
+  { code: "SSP", country: "Unknown Country", rate: 57.5078 },
   { code: "STD", country: "São Tomé and Príncipe", rate: 206.9798 },
   { code: "STN", country: "Unknown Country", rate: 0.2179 },
   { code: "SVC", country: "El Salvador", rate: 0.0876 },
@@ -166,7 +166,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "UZS", country: "Uzbekistan", rate: 120.7312 },
   { code: "VES", country: "Unknown Country", rate: 8.7891 },
   { code: "VND", country: "Vietnam", rate: 258.9450 },
-  { code: "VUV", country: "Vanuatu", rate: 1.1976 },
+  { code: "VUV", country: "Vanuatu", rate: 1.1939 },
   { code: "WST", country: "Samoa", rate: 0.0279 },
   { code: "XAF", country: "Unknown Country", rate: 5.8374 },
   { code: "XAG", country: "Unknown Country", rate: 0.0002 },
@@ -183,4 +183,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2026-10-18 03:28:05 UTC";
+export const lastUpdated = "2026-10-18 12:28:05 UTC";
