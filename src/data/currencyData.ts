@@ -1,4 +1,4 @@
-// Generated on 2026-10-24 03:39:05 UTC
+// Generated on 2026-10-24 12:28:04 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -15,7 +15,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ANG", country: "Netherlands Antilles", rate: 0.0179 },
   { code: "AOA", country: "Angola", rate: 9.1700 },
   { code: "ARS", country: "Argentina", rate: 15.2314 },
-  { code: "AUD", country: "Australia", rate: 0.0142 },
+  { code: "AUD", country: "Australia", rate: 0.0143 },
   { code: "AWG", country: "Aruba", rate: 0.0180 },
   { code: "AZN", country: "Azerbaijan", rate: 0.0170 },
   { code: "BAM", country: "Bosnia and Herzegovina", rate: 0.0175 },
@@ -39,10 +39,10 @@ export const exchangeRates: CurrencyData[] = [
   { code: "CDF", country: "Democratic Republic of the Congo", rate: 23.1600 },
   { code: "CHF", country: "Switzerland", rate: 0.0083 },
   { code: "CLF", country: "Chile", rate: 0.0003 },
-  { code: "CLP", country: "Chile", rate: 9.9551 },
+  { code: "CLP", country: "Chile", rate: 9.8646 },
   { code: "CNH", country: "China (Offshore Yuan)", rate: 0.0667 },
   { code: "CNY", country: "China", rate: 0.0668 },
-  { code: "COP", country: "Colombia", rate: 31.5041 },
+  { code: "COP", country: "Colombia", rate: 31.7142 },
   { code: "CRC", country: "Costa Rica", rate: 4.5602 },
   { code: "CUC", country: "Cuba (Convertible Peso)", rate: 0.0100 },
   { code: "CUP", country: "Cuba", rate: 0.2398 },
@@ -131,8 +131,8 @@ export const exchangeRates: CurrencyData[] = [
   { code: "PYG", country: "Paraguay", rate: 57.7944 },
   { code: "QAR", country: "Qatar", rate: 0.0364 },
   { code: "RON", country: "Romania", rate: 0.0478 },
-  { code: "RSD", country: "Serbia", rate: 1.0532 },
-  { code: "RUB", country: "Russia", rate: 0.8033 },
+  { code: "RSD", country: "Serbia", rate: 1.0488 },
+  { code: "RUB", country: "Russia", rate: 0.8162 },
   { code: "RWF", country: "Rwanda", rate: 14.7641 },
   { code: "SAR", country: "Saudi Arabia", rate: 0.0375 },
   { code: "SBD", country: "Solomon Islands", rate: 0.0807 },
@@ -183,4 +183,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2026-10-24 03:39:05 UTC";
+export const lastUpdated = "2026-10-24 12:28:04 UTC";
