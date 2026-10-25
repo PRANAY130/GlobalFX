@@ -1,4 +1,4 @@
-// Generated on 2026-10-25 12:59:05 UTC
+// Generated on 2026-10-25 18:45:05 UTC
 // This file contains exchange rates for various currencies relative to INR, along with their corresponding countries.
 
 export interface CurrencyData {
@@ -17,7 +17,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ARS", country: "Argentina", rate: 15.2925 },
   { code: "AUD", country: "Australia", rate: 0.0143 },
   { code: "AWG", country: "Aruba", rate: 0.0180 },
-  { code: "AZN", country: "Azerbaijan", rate: 0.0170 },
+  { code: "AZN", country: "Azerbaijan", rate: 0.0171 },
   { code: "BAM", country: "Bosnia and Herzegovina", rate: 0.0175 },
   { code: "BBD", country: "Barbados", rate: 0.0201 },
   { code: "BDT", country: "Bangladesh", rate: 1.2359 },
@@ -144,7 +144,7 @@ export const exchangeRates: CurrencyData[] = [
   { code: "SLE", country: "Sierra Leone", rate: 0.2295 },
   { code: "SLL", country: "Sierra Leone (Old Currency)", rate: 209.6950 },
   { code: "SOS", country: "Somalia", rate: 5.7107 },
-  { code: "SRD", country: "Suriname", rate: 0.3765 },
+  { code: "SRD", country: "Suriname", rate: 0.3763 },
   { code: "SSP", country: "Unknown Country", rate: 57.4530 },
   { code: "STD", country: "São Tomé and Príncipe", rate: 206.9798 },
   { code: "STN", country: "Unknown Country", rate: 0.2187 },
@@ -183,4 +183,4 @@ export const exchangeRates: CurrencyData[] = [
   { code: "ZWL", country: "Zimbabwe", rate: 3.2200 },
 ];
 
-export const lastUpdated = "2026-10-25 12:59:05 UTC";
+export const lastUpdated = "2026-10-25 18:45:05 UTC";
